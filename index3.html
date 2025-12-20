@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mari Rodrigues | Minimal Photography</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        color: #333;
+        background: #ffffff;
+        line-height: 1.6;
+      }
+
+      @font-face {
+        font-family: "The Seasons";
+        src: local("The Seasons");
+      }
+
+      .section-title {
+        font-family: "The Seasons";
+        font-size: 2.4rem;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #222;
+        letter-spacing: 0.5px;
+      }
+
+      .hero {
+        position: relative;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 5%;
+      }
+
+      .hero img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(92%);
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+      }
+
+      .hero h1 {
+        font-family: "The Seasons";
+        font-size: 3.5rem;
+        color: #fff;
+        margin-bottom: 10px;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+
+      .hero p {
+        font-size: 1rem;
+        color: #f7f7f7;
+        opacity: 0.95;
+        max-width: 600px;
+        margin: 0 auto 25px;
+      }
+
+      .btn {
+        padding: 12px 28px;
+        border: 1px solid #ffffff;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 0.9rem;
+      }
+
+      .btn:hover {
+        background: white;
+        color: #333;
+      }
+
+      .about {
+        padding: 120px 10%;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+      }
+
+      .about img {
+        width: 100%;
+        border-radius: 6px;
+      }
+
+      .about-text h2 {
+        font-family: "The Seasons";
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+      }
+
+      .about-text p {
+        opacity: 0.8;
+        font-size: 1rem;
+        max-width: 500px;
+      }
+
+      .stories {
+        padding: 80px 10%;
+      }
+
+      .story-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+      }
+
+      .story-card img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+
+      .story-card h3 {
+        font-family: "The Seasons";
+        margin-top: 10px;
+        font-size: 1.3rem;
+        color: #333;
+      }
+
+      .categories {
+        padding: 120px 10%;
+      }
+
+      .cat-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+      }
+
+      .cat-card img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+
+      .cat-card span {
+        display: block;
+        margin-top: 10px;
+        font-family: "The Seasons";
+        font-size: 1.1rem;
+        color: #444;
+        text-align: center;
+      }
+
+      .quote {
+        padding: 150px 10%;
+        text-align: center;
+      }
+
+      .quote p {
+        font-family: "The Seasons";
+        font-size: 2rem;
+        color: #444;
+        letter-spacing: 1px;
+      }
+
+      .gallery {
+        padding: 100px 10%;
+      }
+
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+      }
+
+      .gallery-grid img {
+        border-radius: 6px;
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+      }
+
+      .cta {
+        padding: 140px 10%;
+        text-align: center;
+      }
+
+      .cta h2 {
+        font-family: "The Seasons";
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+      }
+
+      .cta a {
+        padding: 14px 34px;
+        background: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        transition: 0.3s;
+      }
+
+      .cta a:hover {
+        background: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="hero">
+      <img src="hero.jpg" />
+
+      <div class="hero-content">
+        <h1>Mari Rodrigues</h1>
+        <p>Cinematic photography with a minimal, honest visual language.</p>
+        <a href="#portfolio" class="btn">View Portfolio</a>
+      </div>
+    </section>
+    <section class="about">
+      <img src="about.jpg" />
+
+      <div class="about-text">
+        <h2>About Mari</h2>
+        <p>
+          I create images rooted in simplicity, light, and authenticity. My
+          approach is minimal but emotional — allowing each frame to breathe,
+          highlight movement, and reveal natural beauty.
+        </p>
+      </div>
+    </section>
+    <section class="stories">
+      <h2 class="section-title">Featured Stories</h2>
+
+      <div class="story-grid">
+        <div class="story-card">
+          <img src="story1.jpg" />
+          <h3>Barcelona Nights</h3>
+        </div>
+
+        <div class="story-card">
+          <img src="story2.jpg" />
+          <h3>Urban Lovers</h3>
+        </div>
+
+        <div class="story-card">
+          <img src="story3.jpg" />
+          <h3>Golden Hour Steps</h3>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <h2 class="section-title">What I Photograph</h2>
+
+      <div class="cat-grid">
+        <div class="cat-card">
+          <img src="couples.jpg" />
+          <span>Couples</span>
+        </div>
+
+        <div class="cat-card">
+          <img src="portraits.jpg" />
+          <span>Portraits</span>
+        </div>
+
+        <div class="cat-card">
+          <img src="urban.jpg" />
+          <span>Urban Stories</span>
+        </div>
+
+        <div class="cat-card">
+          <img src="events.jpg" />
+          <span>Intimate Events</span>
+        </div>
+      </div>
+    </section>
+    <section class="quote">
+      <p>“Minimal frames. Maximum emotion.”</p>
+    </section>
+    <section class="gallery">
+      <h2 class="section-title">Selected Frames</h2>
+
+      <div class="gallery-grid">
+        <img src="g1.jpg" />
+        <img src="g2.jpg" />
+        <img src="g3.jpg" />
+        <img src="g4.jpg" />
+        <img src="g5.jpg" />
+        <img src="g6.jpg" />
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Let’s create something meaningful together.</h2>
+      <a href="#contact">Contact</a>
+    </section>
+  </body>
+</html>
