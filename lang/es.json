@@ -1,0 +1,13 @@
+{
+  "nav.home": "Inicio",
+  "nav.about": "Sobre mí",
+  "nav.services": "Servicios",
+  "nav.portfolio": "Portafolio",
+  "nav.contact": "Contacto",
+
+  "hero.script": "el arte del cine",
+  "hero.title": "Mari Rodrigues",
+  "hero.subtitle": "Fotografía Urbana Cinematográfica",
+  "hero.description": "Mi trabajo nace de la luz, la atmósfera y la honestidad. Capturo momentos cinematográficos de la vida cotidiana — íntimos, emocionales y silenciosamente poderosos.",
+  "hero.cta": "Ver portafolio"
+}

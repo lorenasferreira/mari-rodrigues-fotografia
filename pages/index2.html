@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mari Rodrigues — Cinematic Urban Photography</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      @font-face {
+        font-family: "The Seasons";
+        src: local("The Seasons");
+      }
+
+      @font-face {
+        font-family: "Brown Sugar";
+        src: local("Brown Sugar");
+      }
+
+      body {
+        background: #e8dfd4;
+        font-family: "Inter", sans-serif;
+        color: #2b2b2b;
+        line-height: 1.6;
+      }
+
+      .hero {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+      }
+
+      .hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(85%);
+      }
+
+      .hero-overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.25);
+      }
+
+      .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+        max-width: 900px;
+        color: #f7f3ee;
+      }
+
+      /* script poetic */
+      .script {
+        font-family: "Brown Sugar";
+        font-size: 2.1rem;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+      }
+
+      .hero-content h1 {
+        font-family: "The Seasons";
+        font-size: 4rem;
+        font-weight: 300;
+        line-height: 1.1;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+        opacity: 0.85;
+        margin-bottom: 30px;
+      }
+
+      .divider {
+        margin: 25px auto;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .divider span {
+        font-family: "The Seasons";
+        font-size: 2.2rem;
+        opacity: 0.75;
+      }
+
+      .hero-content p {
+        max-width: 700px;
+        margin: 0 auto;
+        margin-top: 25px;
+        font-size: 0.95rem;
+        opacity: 0.95;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 12px 28px;
+        border: 1px solid #f7f3ee;
+        color: #f7f3ee;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 0.9rem;
+        transition: 0.3s ease;
+      }
+
+      .btn:hover {
+        background: #f7f3ee;
+        color: #2b2b2b;
+      }
+
+      .about {
+        padding: 120px 8%;
+        display: flex;
+        align-items: center;
+        gap: 60px;
+      }
+
+      .about img {
+        width: 100%;
+        border-radius: 4px;
+      }
+
+      .about-text h2 {
+        font-family: "The Seasons";
+        font-size: 2.6rem;
+        margin-bottom: 20px;
+      }
+
+      .about-text p {
+        font-size: 1rem;
+        opacity: 0.8;
+      }
+
+      .section-title {
+        font-family: "The Seasons";
+        font-size: 2.4rem;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .stories {
+        padding: 80px 8%;
+      }
+
+      .story-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+      }
+
+      .story-card img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+      }
+
+      .story-card h3 {
+        font-family: "The Seasons";
+        font-size: 1.4rem;
+        margin-top: 12px;
+      }
+
+      .categories {
+        padding: 120px 8%;
+        text-align: center;
+      }
+
+      .cat-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+      }
+
+      .cat-card {
+        position: relative;
+      }
+
+      .cat-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+
+      .cat-overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.35);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: 0.3s ease;
+        border-radius: 4px;
+      }
+
+      .cat-card:hover .cat-overlay {
+        opacity: 1;
+      }
+
+      .cat-overlay span {
+        font-family: "The Seasons";
+        color: white;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+      }
+
+      .quote {
+        padding: 120px 8%;
+        text-align: center;
+      }
+
+      .quote p {
+        font-family: "Brown Sugar";
+        font-size: 2.2rem;
+        color: #7a6655;
+      }
+
+      .gallery {
+        padding: 100px 8%;
+      }
+
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+      }
+
+      .gallery-grid img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+
+      .cta {
+        padding: 140px 8%;
+        text-align: center;
+      }
+
+      .cta h2 {
+        font-family: "The Seasons";
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+      }
+
+      .cta a {
+        text-decoration: none;
+        padding: 14px 34px;
+        background: #7a6655;
+        color: white;
+        border-radius: 3px;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <img src="./assets/images/hero.jpg" />
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="script">the art of cinema</div>
+
+        <h1>Mari Rodrigues</h1>
+
+        <div class="subtitle">Cinematic Urban Photography</div>
+
+        <div class="divider">
+          <span>M</span>
+        </div>
+
+        <p>
+          My work is rooted in light, atmosphere, and honesty. I capture
+          cinematic moments in everyday life — intimate, emotional, and quietly
+          powerful.
+        </p>
+
+        <a href="#portfolio" class="btn">View Portfolio</a>
+      </div>
+    </section>
+    <section class="about">
+      <img src="about.jpg" />
+
+      <div class="about-text">
+        <h2>About Mari</h2>
+        <p>
+          Barcelona-based photographer blending cinematic light with everyday
+          intimacy. I document people in movement, shadow, and softness —
+          turning ordinary seconds into meaningful frames.
+        </p>
+      </div>
+    </section>
+    <section class="stories" id="stories">
+      <h2 class="section-title">Featured Stories</h2>
+
+      <div class="story-grid">
+        <div class="story-card">
+          <img src="story1.jpg" />
+          <h3>Barcelona Nights</h3>
+        </div>
+
+        <div class="story-card">
+          <img src="story2.jpg" />
+          <h3>Urban Lovers</h3>
+        </div>
+
+        <div class="story-card">
+          <img src="story3.jpg" />
+          <h3>Golden Hour Steps</h3>
+        </div>
+      </div>
+    </section>
+    <section class="categories" id="services">
+      <h2 class="section-title">What I Photograph</h2>
+
+      <div class="cat-grid">
+        <div class="cat-card">
+          <img src="couples.jpg" />
+          <div class="cat-overlay"><span>Couples</span></div>
+        </div>
+
+        <div class="cat-card">
+          <img src="portraits.jpg" />
+          <div class="cat-overlay"><span>Portraits</span></div>
+        </div>
+
+        <div class="cat-card">
+          <img src="urban.jpg" />
+          <div class="cat-overlay"><span>Urban Stories</span></div>
+        </div>
+
+        <div class="cat-card">
+          <img src="events.jpg" />
+          <div class="cat-overlay"><span>Intimate Events</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="quote">
+      <p>Light is where emotion begins.</p>
+    </section>
+    <section class="gallery">
+      <h2 class="section-title">Selected Frames</h2>
+
+      <div class="gallery-grid">
+        <img src="g1.jpg" />
+        <img src="g2.jpg" />
+        <img src="g3.jpg" />
+        <img src="g4.jpg" />
+        <img src="g5.jpg" />
+        <img src="g6.jpg" />
+      </div>
+    </section>
+    <section class="cta">
+      <h2>Let’s create something honest together.</h2>
+      <a href="#contact">Contact</a>
+    </section>
+  </body>
+</html>
