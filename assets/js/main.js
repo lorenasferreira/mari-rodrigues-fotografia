@@ -1,9 +1,9 @@
-import { initNavScroll } from "./nav/nav-scroll.js";
+import { initNav } from "./nav.js";
 import { initHeroRotator } from "./hero/hero-rotator.js";
-
-initHeroRotator();
+import { initPackagesCarousel } from "./packages.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  initNavScroll();
+  initNav();
   initHeroRotator();
+  initPackagesCarousel();
 });

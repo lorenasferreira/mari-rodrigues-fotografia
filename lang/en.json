@@ -9,5 +9,56 @@
   "hero.title": "Mari Rodrigues",
   "hero.subtitle": "Cinematic Urban Photography",
   "hero.description": "My work is rooted in light, atmosphere, and honesty. I capture cinematic moments in everyday life — intimate, emotional, and quietly powerful.",
-  "hero.cta": "View Portfolio"
+  "hero.cta": "View Portfolio",
+  "about.meta.title": "About — Mari Rodrigues Photography",
+
+  "about.hero.title": "I’m Marina.",
+  "about.hero.subtitle": "I tell stories of people and places through cinematic photography.",
+
+  "about.story.text": "I love creating memories through my lens. My work focuses on meaningful experiences and timeless moments — especially in Barcelona, a city where art lives in every corner and ordinary moments become unforgettable.",
+
+  "about.keywords.light": "Light",
+  "about.keywords.movement": "Movement",
+  "about.keywords.intimacy": "Intimacy",
+  "about.keywords.honest": "Honest moments",
+
+  "about.closing.title": "Let’s create something meaningful together.",
+  "about.closing.text": "If my work resonates with you, I’d love to hear your story.",
+  "about.closing.cta": "Contact",
+
+  "about.hero.greeting": "Hi,",
+  "about.hero.name": "I'm Marina",
+  "about.hero.lead": "I love telling stories of people and places through cinematic photography. I focus on creating meaningful experiences and timeless memories — especially in Barcelona, a city where art lives in every corner.",
+  "about.hero.location": "Barcelona • Worldwide",
+  "about.hero.script": "About Me",
+
+  "about.section.title": "About Me",
+  "about.section.subtitle": "Hey, thrill seeker.",
+  "about.section.paragraph1": "I’m MR — a photographer drawn to golden shadows, quiet romance, and honest emotion.",
+  "about.section.paragraph2": "Think cinema stills, but for your real life. If you want images that feel like a story you can step back into, you’re in the right place.",
+  "about.section.cta": "Learn more",
+
+  "about.story.script": "Let’s tell your story",
+  "about.story.title": "Let’s tell your story",
+  "about.story.subtitle": "Editorial composition, cinematic color, and real emotion. Couples, portraits, brands.",
+  "about.story.cta": "Learn more",
+
+  "packages.meta.title": "Photography Packages — Mari Rodrigues",
+
+  "packages.hero.title_line1": "Explore the",
+  "packages.hero.title_line2": "Packages",
+
+  "packages.cta": "Learn more",
+
+  "packages.couples.title": "Couples",
+  "packages.couples.alt": "Couples photography package",
+
+  "packages.bts.title": "BTS",
+  "packages.bts.alt": "Behind the scenes photography for events and creative projects",
+
+  "packages.portrait.title": "Portraits",
+  "packages.portrait.alt": "Individual portrait photography session",
+
+  "packages.editorial.title": "Editorial / Artistic",
+  "packages.editorial.alt": "Editorial and artistic photography sessions"
 }

@@ -1,0 +1,76 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(85%);
+  z-index: 1;
+    inset: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+  max-width: 900px;
+  color: #f7f3ee;
+  z-index: 3;
+}
+
+.hero-image {
+  transition: opacity 0.8s ease;
+}
+
+.script {
+  font-family: "Brown Sugar";
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.hero-content h1 {
+  font-family: "The Seasons", serif;
+  letter-spacing: 0.5px;
+  font-size: 3.5rem;
+  margin-bottom: 0 0 10px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  opacity: 0.85;
+  margin-bottom: 30px;
+}
+
+.divider {
+  margin: 25px auto;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider span {
+  font-family: "The Seasons";
+  font-size: 2.2rem;
+  opacity: 0.75;
+}
+

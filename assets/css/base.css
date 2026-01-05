@@ -1,0 +1,42 @@
+:root {
+  --bg: #221f1c;
+  --bg-2: #2b2723;
+  --paper: #ddd4c8;
+  --paper-2: #e7dfd5;
+  --ink: #111111;
+  --text: #e9e3da;
+  --muted: #bfb7ad;
+  --charcoal: #2d2d2f;
+  --fog: #f3efe9;
+  --accent: #c9b39b;
+  --accent-2: #a68c74;
+  --shadow: 0 25px 70px rgba(0, 0, 0, 0.45);
+  --radius: 18px;
+  --font-ui: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    sans-serif;
+  --font-display: "The Seasons", "Georgia", "Times New Roman", serif;
+  --font-script: "The Seasons", "Georgia", "Times New Roman", serif; /* swap later */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "The Seasons";
+  src: local("The Seasons");
+}
+
+@font-face {
+  font-family: "Brown Sugar";
+  src: local("Brown Sugar");
+}
+
+body {
+  background: var(--paper);
+  font-family: var(--font-ui);
+  color: var(--ink);
+  line-height: 1.6;
+}

@@ -9,5 +9,42 @@
   "hero.title": "Mari Rodrigues",
   "hero.subtitle": "Fotografia Urbana Cinematográfica",
   "hero.description": "Meu trabalho nasce da luz, da atmosfera e da honestidade. Capturo momentos cinematográficos do cotidiano — íntimos, emocionais e silenciosamente poderosos.",
-  "hero.cta": "Ver Portfolio"
+  "hero.cta": "Ver Portfolio",
+  "about.meta.title": "Sobre Mim — Fotografia Mari Rodrigues",
+
+  "about.hero.greeting": "Oi,",
+  "about.hero.name": "sou Marina",
+  "about.hero.lead": "Eu amo contar histórias de pessoas e lugares através da fotografia cinematográfica. Meu foco é criar experiências significativas e memórias atemporais — especialmente em Barcelona, uma cidade onde a arte vive em cada esquina.",
+  "about.hero.location": "Barcelona • Mundo todo",
+  "about.hero.script": "Sobre Mim",
+
+  "about.section.title": "Sobre Mim",
+  "about.section.subtitle": "Ei, aventureira(o).",
+  "about.section.paragraph1": "Eu sou a MR — fotógrafa apaixonada por sombras douradas, romance silencioso e emoções reais.",
+  "about.section.paragraph2": "Pense em cenas de cinema, mas da sua vida real. Se você busca imagens que parecem uma história para revisitar, você está no lugar certo.",
+  "about.section.cta": "Saiba mais",
+
+  "about.story.script": "Vamos contar sua história",
+  "about.story.title": "Vamos contar sua história",
+  "about.story.subtitle": "Composição editorial, cor cinematográfica e emoção real. Casais, retratos e marcas.",
+  "about.story.cta": "Saiba mais",
+
+  "packages.meta.title": "Pacotes Fotográficos — Mari Rodrigues",
+
+  "packages.hero.title_line1": "Explore os",
+  "packages.hero.title_line2": "Pacotes",
+
+  "packages.cta": "Saiba mais",
+
+  "packages.couples.title": "Casais",
+  "packages.couples.alt": "Pacote de fotografia para casais",
+
+  "packages.bts.title": "BTS",
+  "packages.bts.alt": "Fotografia de bastidores para eventos e projetos criativos",
+
+  "packages.portrait.title": "Ensaio Individual",
+  "packages.portrait.alt": "Ensaio fotográfico individual",
+
+  "packages.editorial.title": "Editorial / Artístico",
+  "packages.editorial.alt": "Ensaios fotográficos editoriais e artísticos"
 }

@@ -9,5 +9,42 @@
   "hero.title": "Mari Rodrigues",
   "hero.subtitle": "Fotografia Urbana Cinematogràfica",
   "hero.description": "El meu treball neix de la llum, l’atmosfera i l’honestedat. Capturo moments cinematogràfics de la vida quotidiana — íntims, emocionals i subtilment poderosos.",
-  "hero.cta": "Veure portafoli"
+  "hero.cta": "Veure portafoli",
+
+  "about.meta.title": "Sobre Mi — Fotografia Mari Rodrigues",
+
+  "about.hero.greeting": "Hola,",
+  "about.hero.name": "soc la Marina",
+  "about.hero.lead": "M’encanta explicar històries de persones i llocs a través de la fotografia cinematogràfica. Em centro en crear experiències significatives i records atemporals — especialment a Barcelona, una ciutat on l’art viu a cada racó.",
+  "about.hero.location": "Barcelona • Arreu del món",
+  "about.hero.script": "Sobre Mi",
+
+  "about.section.title": "Sobre Mi",
+  "about.section.subtitle": "Ei, buscadora d’emocions.",
+  "about.section.paragraph1": "Sóc la MR — fotògrafa atreta per les ombres daurades, el romanticisme silenciós i les emocions reals.",
+  "about.section.paragraph2": "Pensa en escenes de cinema, però de la teva vida real. Si vols imatges que semblin una història a la qual tornar, ets al lloc correcte.",
+  "about.section.cta": "Saber-ne més",
+
+  "about.story.script": "Expliquem la teva història",
+  "about.story.title": "Expliquem la teva història",
+  "about.story.subtitle": "Composició editorial, color cinematogràfic i emoció real. Parelles, retrats i marques.",
+  "about.story.cta": "Saber-ne més",
+  "packages.meta.title": "Paquets Fotogràfics — Mari Rodrigues",
+
+  "packages.hero.title_line1": "Explora els",
+  "packages.hero.title_line2": "Paquets",
+
+  "packages.cta": "Saber-ne més",
+
+  "packages.couples.title": "Parelles",
+  "packages.couples.alt": "Paquet de fotografia per a parelles",
+
+  "packages.bts.title": "BTS",
+  "packages.bts.alt": "Fotografia de bastidors per a esdeveniments i projectes creatius",
+
+  "packages.portrait.title": "Retrat Individual",
+  "packages.portrait.alt": "Sessió fotogràfica individual",
+
+  "packages.editorial.title": "Editorial / Artístic",
+  "packages.editorial.alt": "Sessions fotogràfiques editorials i artístiques"
 }

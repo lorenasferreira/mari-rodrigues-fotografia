@@ -1,0 +1,145 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8%;
+  z-index: 20;
+  background: transparent;
+  transform: translateY(0);
+  opacity: 1;
+  transition: background 0.4s ease, transform 0.4s ease, opacity 0.4s ease;
+}
+
+.site-header.is-scrolled {
+  background: rgba(232, 223, 212, 0.9);
+  backdrop-filter: blur(8px);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #baa489;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.site-header.is-scrolled .nav-links a {
+  color: #2b2b2b;
+}
+
+.nav-links a:hover {
+  opacity: 0.6;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.site-header.is-scrolled .lang-switch a {
+  color: #2b2b2b;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+
+.lang-switch a {
+  text-decoration: none;
+  color: #2b2b2b;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.lang-switch a:hover,
+.lang-switch a.active {
+  opacity: 1;
+}
+
+.lang-desktop {
+  display: flex;
+  gap: 12px;
+}
+
+.lang-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    color: #2b2b2b;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #e8dfd4;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  @media (max-width: 768px) {
+    .lang-desktop {
+      display: none;
+    }
+    .lang-mobile {
+      display: block;
+      position: relative;
+    }
+    .lang-current {
+      background: none;
+      border: none;
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+    .lang-dropdown {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 120%;
+      background: #e8dfd4;
+      padding: 10px 14px;
+      border-radius: 4px;
+    }
+    .lang-dropdown.open {
+      display: block;
+    }
+    .lang-dropdown li {
+      list-style: none;
+      margin-bottom: 8px;
+    }
+    .lang-dropdown li:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

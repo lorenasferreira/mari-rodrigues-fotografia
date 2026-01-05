@@ -1,161 +1,79 @@
-/* BASE -------------------------- */
-body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background: #0C0C0C;
-    color: white;
+.hero-content p {
+  max-width: 700px;
+  margin: 25px auto 0;
+  font-size: 0.95rem;
+  opacity: 0.95;
 }
 
-.hero-title, h2, h3 {
-    font-family: 'The Seasons', serif;
-    letter-spacing: 0.5px;
+.hero-logo {
+  display: block;
 }
 
-.hero-script, .quote-script {
-    font-family: 'Brown Sugar', cursive;
+.hero-logo img {
+  height: 72px;
+  width: auto;
+  display: block;
 }
 
-/* HERO --------------------------- */
-.hero {
-    position: relative;
-    height: 100vh;
-    width: 100%;
+.hero-controls {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
 }
 
-.hero-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.hero-arrow {
+  pointer-events: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  opacity: 0.4;
 }
 
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.45);
+.hero-arrow:hover {
+  opacity: 0.8;
 }
 
-.hero-content {
-    position: absolute;
-    bottom: 20%;
-    left: 8%;
-    max-width: 600px;
+.hero-arrow.prev { left: 20px; }
+.hero-arrow.next { right: 20px; }
+
+.hero-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
-.hero-title {
-    font-size: 3.5rem;
-    margin: 0 0 10px;
+.hero-dot.active {
+  opacity: 1;
 }
 
-.hero-script {
-    font-size: 1.6rem;
-    margin-bottom: 30px;
-    color: #E5D6C5;
-}
 
-.btn-outline {
-    padding: 12px 28px;
-    border: 1px solid white;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-/* ABOUT --------------------------- */
 .about {
-    display: flex;
-    gap: 40px;
-    padding: 100px 8%;
+  padding: 120px 8%;
+  display: flex;
+  align-items: center;
+  gap: 60px;
 }
 
 .about img {
-    width: 100%;
-    border-radius: 4px;
+  width: 100%;
+  border-radius: 4px;
 }
 
-/* CATEGORIES ---------------------- */
-.section-title {
-    text-align: center;
-    font-size: 2.4rem;
-    margin-bottom: 50px;
+.about-text h2 {
+  font-family: "The Seasons";
+  font-size: 2.6rem;
+  margin-bottom: 20px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    padding: 0 8%;
+.about-text p {
+  font-size: 1rem;
+  opacity: 0.8;
 }
-
-.cat-card {
-    position: relative;
-}
-
-.cat-card img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-}
-
-.cat-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.45);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: 0.3s ease;
-}
-
-.cat-card:hover .cat-overlay {
-    opacity: 1;
-}
-
-.cat-overlay span {
-    font-size: 1.4rem;
-    font-family: 'The Seasons';
-}
-
-/* QUOTE --------------------------- */
-.quote {
-    padding: 120px 8%;
-    text-align: center;
-}
-
-.quote-script {
-    font-size: 2rem;
-    color: #E5D6C5;
-}
-
-/* STORIES ------------------------- */
-.story-grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    padding: 0 8% 100px;
-}
-
-.story-card img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-}
-
-/* CTA ----------------------------- */
-.cta {
-    padding: 120px 8%;
-    text-align: center;
-}
-
-.btn-solid {
-    background: #E5D6C5;
-    padding: 14px 34px;
-    color: #0C0C0C;
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 3px;
-}
-

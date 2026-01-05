@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1a17;
+  color: #eee9e2;
+  font-family: 'Inter', sans-serif;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('../images/portfolio/events-bts/bts-1.jpg') center / cover no-repeat;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.packages1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.packages2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.packages-carousel {
+  position: relative;
+  width: 100%;
+  background: #111;
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+.packages-track {
+  display: flex;
+  gap: 2rem;
+  padding: 0 4rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.packages-track::-webkit-scrollbar {
+  display: none;
+}
+
+.package-card {
+  flex: 0 0 340px;
+  max-width: 340px;
+  aspect-ratio: 3 / 4;
+  position: relative;
+  overflow: hidden;
+}
+
+.package-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+  transition: transform 0.6s ease, filter 0.6s ease;
+}
+
+.package-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(0.6);
+}
+
+.package-info {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 2.5rem;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.65),
+    rgba(0,0,0,0)
+  );
+}
+
+.package-info h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+.package-info a {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #d8c8a0;
+  border-bottom: 1px solid rgba(216,200,160,0.5);
+  padding-bottom: 0.2rem;
+  transition: opacity 0.3s ease;
+}
+
+.package-info a:hover {
+  opacity: 0.7;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  background: rgba(0,0,0,0.4);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.carousel-arrow:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+.carousel-arrow.prev {
+  left: 1rem;
+}
+
+.carousel-arrow.next {
+  right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .packages-track {
+    padding: 0 1.5rem;
+  }
+
+  .carousel-arrow {
+    display: none;
+  }
+
+  .packages2 {
+    font-size: 3.4rem;
+  }
+}
