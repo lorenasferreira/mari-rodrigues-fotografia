@@ -12,7 +12,7 @@
 }
 
 .site-header.is-scrolled {
-  background: rgba(232, 223, 212, 0.9);
+  background: var(--paper);
   backdrop-filter: blur(8px);
 }
 
@@ -34,24 +34,16 @@
   text-decoration: none;
   font-size: 0.75rem;
   letter-spacing: 2px;
-  color: #baa489;
+  color: var(--accent-2);
   transition: opacity 0.3s ease, color 0.3s ease;
 }
 
 .site-header.is-scrolled .nav-links a {
-  color: #2b2b2b;
+  color: var(--ink);
 }
 
 .nav-links a:hover {
   opacity: 0.6;
-}
-
-.menu-toggle {
-  display: none;
-}
-
-.site-header.is-scrolled .lang-switch a {
-  color: #2b2b2b;
 }
 
 .lang-switch {
@@ -63,7 +55,7 @@
 
 .lang-switch a {
   text-decoration: none;
-  color: #2b2b2b;
+  color: var(--accent-2);
   opacity: 0.6;
   transition: opacity 0.3s ease;
 }
@@ -82,13 +74,18 @@
   display: none;
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
-    background: none;
-    border: none;
-    font-size: 1.4rem;
-    color: #2b2b2b;
   }
 
   .nav-links {
@@ -96,7 +93,7 @@
     top: 100%;
     left: 0;
     right: 0;
-    background: #e8dfd4;
+    background: var(--paper);
     flex-direction: column;
     gap: 20px;
     padding: 20px;
@@ -107,39 +104,45 @@
     display: flex;
   }
 
-  @media (max-width: 768px) {
-    .lang-desktop {
-      display: none;
-    }
-    .lang-mobile {
-      display: block;
-      position: relative;
-    }
-    .lang-current {
-      background: none;
-      border: none;
-      font-size: 0.75rem;
-      letter-spacing: 2px;
-      cursor: pointer;
-    }
-    .lang-dropdown {
-      display: none;
-      position: absolute;
-      right: 0;
-      top: 120%;
-      background: #e8dfd4;
-      padding: 10px 14px;
-      border-radius: 4px;
-    }
-    .lang-dropdown.open {
-      display: block;
-    }
-    .lang-dropdown li {
-      list-style: none;
-      margin-bottom: 8px;
-    }
-    .lang-dropdown li:last-child {
-      margin-bottom: 0;
-    }
+  .lang-desktop {
+    display: none;
+  }
+
+  .lang-mobile {
+    display: block;
+    position: relative;
+  }
+
+  .lang-current {
+    background: none;
+    border: none;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: var(--ink);
+  }
+
+  .lang-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 120%;
+    background: var(--paper);
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow);
+  }
+
+  .lang-dropdown.open {
+    display: block;
+  }
+
+  .lang-dropdown li {
+    list-style: none;
+    margin-bottom: 8px;
+  }
+
+  .lang-dropdown li:last-child {
+    margin-bottom: 0;
   }
 }

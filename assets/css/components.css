@@ -1,17 +1,17 @@
 .btn {
   display: inline-block;
   padding: 12px 28px;
-  border: 1px solid #f7f3ee;
-  color: #f7f3ee;
+  border: 1px solid var(--text);
+  color: var(--text);
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 0.9rem;
-  transition: 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .btn:hover {
-  background: #f7f3ee;
-  color: #2b2b2b;
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .hero-controls {
@@ -28,17 +28,21 @@
   transform: translateY(-50%);
   background: none;
   border: none;
-  color: white;
+  color: var(--text);
   font-size: 2rem;
-  opacity: 0.4;
+  opacity: var(--ui-muted, 0.4);
 }
 
 .hero-arrow:hover {
-  opacity: 0.8;
+  opacity: var(--ui-hover, 0.8);
 }
 
-.hero-arrow.prev { left: 20px; }
-.hero-arrow.next { right: 20px; }
+.hero-arrow.prev {
+  left: 20px;
+}
+.hero-arrow.next {
+  right: 20px;
+}
 
 .hero-dots {
   pointer-events: auto;
@@ -54,8 +58,8 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: white;
-  opacity: 0.4;
+  background: var(--text);
+  opacity: var(--ui-muted, 0.4);
   cursor: pointer;
 }
 
