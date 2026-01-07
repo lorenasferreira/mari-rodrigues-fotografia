@@ -60,5 +60,20 @@
   "packages.portrait.alt": "Individual portrait photography session",
 
   "packages.editorial.title": "Editorial / Artistic",
-  "packages.editorial.alt": "Editorial and artistic photography sessions"
+  "packages.editorial.alt": "Editorial and artistic photography sessions",
+
+  "contact.meta.title": "Contact — Mari Rodrigues",
+
+  "contact.hero.title": "Let’s connect",
+  "contact.hero.lead": "Tell me a little about yourself and what you have in mind.",
+  "contact.hero.script": "Contact",
+
+  "contact.section.title": "Get in touch",
+  "contact.section.text": "If you felt a connection with my work, I’d love to hear your story and understand how I can help.",
+  "contact.section.quote": "Every story deserves to be told with care.",
+
+  "contact.form.name": "Name",
+  "contact.form.email": "Email",
+  "contact.form.message": "Message",
+  "contact.form.submit": "Send message"
 }

@@ -47,5 +47,19 @@
   "packages.portrait.alt": "Sesión fotográfica individual",
 
   "packages.editorial.title": "Editorial / Artístico",
-  "packages.editorial.alt": "Sesiones fotográficas editoriales y artísticas"
+  "packages.editorial.alt": "Sesiones fotográficas editoriales y artísticas",
+  "contact.meta.title": "Contacto — Mari Rodrigues",
+
+  "contact.hero.title": "Conectemos",
+  "contact.hero.lead": "Cuéntame un poco sobre ti y lo que tienes en mente.",
+  "contact.hero.script": "Contacto",
+
+  "contact.section.title": "Hablemos",
+  "contact.section.text": "Si sentiste conexión con mi trabajo, me encantará conocer tu historia y ver cómo puedo ayudarte.",
+  "contact.section.quote": "Cada historia merece ser contada con sensibilidad.",
+
+  "contact.form.name": "Nombre",
+  "contact.form.email": "Email",
+  "contact.form.message": "Mensaje",
+  "contact.form.submit": "Enviar mensaje"
 }

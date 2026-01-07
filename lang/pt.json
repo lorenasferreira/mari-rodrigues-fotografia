@@ -46,5 +46,19 @@
   "packages.portrait.alt": "Ensaio fotográfico individual",
 
   "packages.editorial.title": "Editorial / Artístico",
-  "packages.editorial.alt": "Ensaios fotográficos editoriais e artísticos"
+  "packages.editorial.alt": "Ensaios fotográficos editoriais e artísticos",
+  "contact.meta.title": "Contato — Mari Rodrigues",
+
+  "contact.hero.title": "Vamos nos conectar",
+  "contact.hero.lead": "Conte um pouco sobre você e o que tem em mente.",
+  "contact.hero.script": "Contato",
+
+  "contact.section.title": "Entre em contato",
+  "contact.section.text": "Se você sentiu conexão com meu trabalho, será um prazer ouvir sua história e entender como posso ajudar.",
+  "contact.section.quote": "Toda história merece ser contada com sensibilidade.",
+
+  "contact.form.name": "Nome",
+  "contact.form.email": "Email",
+  "contact.form.message": "Mensagem",
+  "contact.form.submit": "Enviar mensagem"
 }
