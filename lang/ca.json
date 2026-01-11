@@ -11,30 +11,42 @@
   "hero.description": "El meu treball neix de la llum, l’atmosfera i l’honestedat. Capturo moments cinematogràfics de la vida quotidiana — íntims, emocionals i subtilment poderosos.",
   "hero.cta": "Veure portafoli",
 
-  "about.meta.title": "Sobre Mi — Fotografia Mari Rodrigues",
+  "about.meta.title": "Sobre mi — Mari Rodrigues Photography",
 
   "about.hero.greeting": "Hola,",
-  "about.hero.name": "soc la Marina",
-  "about.hero.lead": "M’encanta explicar històries de persones i llocs a través de la fotografia cinematogràfica. Em centro en crear experiències significatives i records atemporals — especialment a Barcelona, una ciutat on l’art viu a cada racó.",
-  "about.hero.location": "Barcelona • Arreu del món",
-  "about.hero.script": "Sobre Mi",
+  "about.hero.name": "soc la Marina.",
+  "about.hero.lead": "Fotògrafa i narradora visual centrada a explicar històries de persones i llocs a través d’una mirada cinematogràfica. No només faig fotos: creo experiències. Moments naturals, íntims i atemporals. El meu treball s’inspira en la llum, les textures i la poesia silenciosa dels espais que habito.",
+  "about.hero.script": "Sobre mi",
 
-  "about.section.title": "Sobre Mi",
-  "about.section.subtitle": "Ei, buscadora d’emocions.",
-  "about.section.paragraph1": "Sóc la MR — fotògrafa atreta per les ombres daurades, el romanticisme silenciós i les emocions reals.",
-  "about.section.paragraph2": "Pensa en escenes de cinema, però de la teva vida real. Si vols imatges que semblin una història a la qual tornar, ets al lloc correcte.",
-  "about.section.cta": "Saber-ne més",
+  "about.section.paragraph1": "El meu treball se situa entre la fotografia, el cinema i la narrativa visual.",
+  "about.section.paragraph2": "Em sento atreta per emocions honestes, bellesa natural i moments que sorgeixen sense actuació — els silencis, les ombres daurades i els gestos no assajats.",
+  "about.section.paragraph3": "Amb experiència en creació de contingut, maquillatge i filmmaking, guio cada sessió com una experiència visual completa — des de l’atmosfera i l’estil fins al moviment i l’emoció.",
+  "about.section.paragraph4": "Ja sigui amb persones, parelles o projectes creatius, la meva intenció és sempre la mateixa: crear imatges que no només documentin un moment, sinó que et convidin a tornar-hi.",
 
-  "about.story.script": "Expliquem la teva història",
-  "about.story.title": "Expliquem la teva història",
-  "about.story.subtitle": "Composició editorial, color cinematogràfic i emoció real. Parelles, retrats i marques.",
-  "about.story.cta": "Saber-ne més",
+  "about.facts.script": "Alguns fets",
+  "about.facts.subtitle": "Experiències que han modelat la meva manera de veure, sentir i crear.",
+
+  "about.facts.one.title": "Arrels",
+  "about.facts.one.text": "Nascuda i criada a Santos, Brasil. Tot i tenir formació en Administració, la narrativa visual sempre ha estat la meva veritable passió.",
+
+  "about.facts.two.title": "El món com a aula",
+  "about.facts.two.text": "Vaig treballar durant quatre anys a bord de creuers, viatjant constantment i aprenent a observar persones, cultures i moments efímers.",
+
+  "about.facts.three.title": "Barcelona",
+  "about.facts.three.text": "Després de traslladar-me a Barcelona, em vaig enamorar de mostrar la ciutat a través de la meva mirada i de crear sessions personals, cinematogràfiques i autèntiques.",
+
+  "about.reviews.script": "Ressenyes",
+  "about.reviews.text": "Cada sessió és una experiència única. Les paraules de qui ja n’ha format part diuen molt més que qualsevol portfoli. Aquí pots llegir opinions reals compartides espontàniament pels clients a Google.",
+  "about.reviews.cta": "Veure ressenyes a Google",
+
+  "about.cta.title": "Expliquem la teva història",
+  "about.cta.text": "Si connectes amb aquesta manera de veure i crear, m’encantarà saber de tu. Sigui on siguis, creem alguna cosa significativa plegats.",
+  "about.cta.button": "Contacta",
+
   "packages.meta.title": "Paquets Fotogràfics — Mari Rodrigues",
 
   "packages.hero.title_line1": "Explora els",
   "packages.hero.title_line2": "Paquets",
-
-  "packages.cta": "Saber-ne més",
 
   "packages.couples.title": "Parelles",
   "packages.couples.alt": "Paquet de fotografia per a parelles",
@@ -46,5 +58,19 @@
   "packages.portrait.alt": "Sessió fotogràfica individual",
 
   "packages.editorial.title": "Editorial / Artístic",
-  "packages.editorial.alt": "Sessions fotogràfiques editorials i artístiques"
+  "packages.editorial.alt": "Sessions fotogràfiques editorials i artístiques",
+  "contact.meta.title": "Contacte — Mari Rodrigues",
+
+  "contact.hero.title": "Connectem",
+  "contact.hero.lead": "Explica’m una mica sobre tu i què tens en ment.",
+  "contact.hero.script": "Contacte",
+
+  "contact.section.title": "Parlem",
+  "contact.section.text": "Si has sentit una connexió amb la meva feina, m’encantaria conèixer la teva història i entendre com et puc ajudar.",
+  "contact.section.quote": "Cada història mereix ser explicada amb cura.",
+
+  "contact.form.name": "Nom",
+  "contact.form.email": "Correu electrònic",
+  "contact.form.message": "Missatge",
+  "contact.form.submit": "Enviar missatge"
 }

@@ -96,17 +96,56 @@
   object-fit: cover;
 }
 
-@media (max-width: 900px) {
+.form-success {
+  background-color: #f5f0ea;
+  color: #3a3a3a;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
   .contact-hero {
-    grid-template-columns: 1fr;
+    display: block;
     height: auto;
     min-height: auto;
   }
 
-  .contact-form-wrapper {
+  .contact-photo--left {
+    display: none;
+  }
+
+  .contact-photo--right {
     position: relative;
+    height: 55vh;
+  }
+
+  .contact-photo--right img {
+    height: 100%;
+  }
+
+  .contact-form-wrapper {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    height: auto;
-    backdrop-filter: none;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+
+    justify-content: flex-start;
+    padding-top: 3rem;
   }
 }

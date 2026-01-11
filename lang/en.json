@@ -27,28 +27,38 @@
   "about.closing.cta": "Contact",
 
   "about.hero.greeting": "Hi,",
-  "about.hero.name": "I'm Marina",
-  "about.hero.lead": "I love telling stories of people and places through cinematic photography. I focus on creating meaningful experiences and timeless memories — especially in Barcelona, a city where art lives in every corner.",
-  "about.hero.location": "Barcelona • Worldwide",
+  "about.hero.name": "I’m Marina.",
+  "about.hero.lead": "A photographer and visual storyteller focused on telling stories of people and places through a cinematic lens. I don’t just take photos — I create experiences. Moments that feel natural, intimate, and timeless. Based in Barcelona, I’m deeply inspired by the city’s light, textures, and quiet poetry — a place where art lives in every corner and every moment has a story waiting to be told.",
   "about.hero.script": "About Me",
 
   "about.section.title": "About Me",
   "about.section.subtitle": "Hey, thrill seeker.",
-  "about.section.paragraph1": "I’m MR — a photographer drawn to golden shadows, quiet romance, and honest emotion.",
-  "about.section.paragraph2": "Think cinema stills, but for your real life. If you want images that feel like a story you can step back into, you’re in the right place.",
+  "about.section.paragraph1": "My work lives somewhere between photography, cinema, and storytelling.",
+  "about.section.paragraph2": "I’m drawn to honest emotion, natural beauty, and moments that unfold without performance — the quiet in-between, the golden shadows, the gestures you don’t rehearse.",
+  "about.section.paragraph3": "With a background in content creation, makeup, and filmmaking, I guide each photoshoot as a complete visual experience — from atmosphere and styling to movement and emotion.",
+  "about.section.paragraph4": "Whether photographing people, couples, or creative projects, my intention is always the same: to create images that don’t just document a moment, but invite you back into it.",
   "about.section.cta": "Learn more",
 
-  "about.story.script": "Let’s tell your story",
-  "about.story.title": "Let’s tell your story",
-  "about.story.subtitle": "Editorial composition, cinematic color, and real emotion. Couples, portraits, brands.",
-  "about.story.cta": "Learn more",
+  "about.facts.script": "A few facts...",
+  "about.facts.subtitle": "Experiences that shaped how I see, feel, and create.",
+
+  "about.facts.one.title": "Roots",
+  "about.facts.one.text": "Born and raised in Santos, Brazil. Although I hold a degree in Business, visual storytelling has always been my true passion.",
+
+  "about.facts.two.title": "The world as a classroom",
+  "about.facts.two.text": "I spent four years working onboard cruise ships, traveling constantly and learning to observe people, cultures, and fleeting moments.",
+
+  "about.facts.three.title": "Barcelona",
+  "about.facts.three.text": "After moving to Barcelona, I fell in love with guiding people through the city and creating photoshoots that feel personal, cinematic, and real.",
+
+  "about.cta.title": "Let’s tell your story",
+  "about.cta.text": "If you feel connected to this way of seeing and creating, I’d love to hear from you. Wherever you are, let’s create something meaningful together.",
+  "about.cta.button": "Get in touch",
 
   "packages.meta.title": "Photography Packages — Mari Rodrigues",
 
   "packages.hero.title_line1": "Explore the",
   "packages.hero.title_line2": "Packages",
-
-  "packages.cta": "Learn more",
 
   "packages.couples.title": "Couples",
   "packages.couples.alt": "Couples photography package",
@@ -75,5 +85,9 @@
   "contact.form.name": "Name",
   "contact.form.email": "Email",
   "contact.form.message": "Message",
-  "contact.form.submit": "Send message"
+  "contact.form.submit": "Send message",
+
+  "about.reviews.script": "Reviews",
+  "about.reviews.text": "Every photoshoot is a unique experience. The words of those who have already been part of it say far more than any portfolio. Here you can find real opinions, shared spontaneously by clients on Google.",
+  "about.reviews.cta": "See reviews on Google"
 }

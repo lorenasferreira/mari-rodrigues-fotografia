@@ -20,90 +20,119 @@ require_once __DIR__ . '/../partials/header.php';
           <span class="display__name"><?= t('about.hero.name') ?></span>
         </h1>
 
-        <p class="lead">
-          <?= t('about.hero.lead') ?>
-        </p>
+        <p class="lead"><?= t('about.hero.lead') ?></p>
       </div>
 
-      <figure class="polaroid polaroid--hero">
-        <img src="<?= BASE_URL ?>/assets/images/about/portrait.JPG" alt="Portrait preview" />
-        <figcaption><?= t('about.hero.location') ?></figcaption>
+      <figure class="polaroid">
+        <img src="<?= BASE_URL ?>/assets/images/about/portrait.JPG" alt="Portrait" />
       </figure>
-
-      <span class="bg-script bg-script--about"><?= t('about.hero.script') ?></span>
 
       <div class="hero-stickers" aria-hidden="true">
         <span class="star"></span>
         <span class="star star--sm"></span>
         <span class="dotgrid"></span>
       </div>
+
     </div>
   </section>
 
   <section id="about" class="section section--about">
+    <span class="bg-script bg-script--about"><?= t('about.hero.script') ?></span>
 
     <div class="collage">
       <div class="collage__paper">
-        <h2 class="script"><?= t('about.section.title') ?></h2>
 
         <div class="two-col">
           <div>
-            <h3 class="section-title"><?= t('about.section.subtitle') ?></h3>
-
             <p class="body"><?= t('about.section.paragraph1') ?></p>
             <p class="body"><?= t('about.section.paragraph2') ?></p>
-
-            <a class="link-cta" href="#contact">
-              <?= t('about.section.cta') ?>
-            </a>
+            <p class="body"><?= t('about.section.paragraph3') ?></p>
+            <p class="body"><?= t('about.section.paragraph4') ?></p>
           </div>
 
           <div class="stack">
             <figure class="torn torn--left">
-              <img src="<?= BASE_URL ?>/assets/images/about/about-1.JPG" alt="About photo 1" />
+              <img src="<?= BASE_URL ?>/assets/images/about/about-1.JPG" alt="" />
             </figure>
 
             <figure class="tape-card">
-              <img src="<?= BASE_URL ?>/assets/images/about/about-2.JPG" alt="About photo 2" />
-              <span class="tape tape--a" aria-hidden="true"></span>
-              <span class="tape tape--b" aria-hidden="true"></span>
+              <img src="<?= BASE_URL ?>/assets/images/about/about-2.JPG" alt="" />
+              <span class="tape tape--a"></span>
+              <span class="tape tape--b"></span>
             </figure>
           </div>
         </div>
+
       </div>
 
-      <div class="collage__edge" aria-hidden="true"></div>
+      <div class="collage__edge"></div>
     </div>
   </section>
 
-  <section id="portfolio" class="section section--story">
-    <span class="bg-script bg-script--story">
-      <?= t('about.story.script') ?>
-    </span>
+<section id="facts" class="section section--story">
+  <span class="bg-script bg-script--story"><?= t('about.facts.script') ?></span>
 
-    <div class="story-wrap">
-      <div class="story-header">
-        <h2 class="script script--light"><?= t('about.story.title') ?></h2>
-        <p class="body body--muted"><?= t('about.story.subtitle') ?></p>
+  <div class="story-wrap">
 
-        <a class="link-cta link-cta--light" href="#contact">
-          <?= t('about.story.cta') ?>
-        </a>
-      </div>
+    <header class="story-header">
+      <p class="body body--muted"><?= t('about.facts.subtitle') ?></p>
+    </header>
 
-      <div class="triptych">
-        <figure class="torn torn--center">
-          <img src="<?= BASE_URL ?>/assets/images/about/story-1.JPG" alt="" />
-        </figure>
-        <figure class="torn torn--center">
-          <img src="<?= BASE_URL ?>/assets/images/about/story-2.JPG" alt="" />
-        </figure>
-        <figure class="torn torn--center">
-          <img src="<?= BASE_URL ?>/assets/images/about/story-3.JPG" alt="" />
-        </figure>
-      </div>
+    <div class="triptych">
+      <figure class="torn">
+        <img src="<?= BASE_URL ?>/assets/images/about/story-1.HEIC" alt="" />
+        <figcaption class="fact">
+          <strong><?= t('about.facts.one.title') ?></strong><br>
+          <?= t('about.facts.one.text') ?>
+        </figcaption>
+      </figure>
+
+      <figure class="torn">
+        <img src="<?= BASE_URL ?>/assets/images/about/story-2.JPG" alt="" />
+        <figcaption class="fact">
+          <strong><?= t('about.facts.two.title') ?></strong><br>
+          <?= t('about.facts.two.text') ?>
+        </figcaption>
+      </figure>
+
+      <figure class="torn">
+        <img src="<?= BASE_URL ?>/assets/images/about/story-3.JPG" alt="" />
+        <figcaption class="fact">
+          <strong><?= t('about.facts.three.title') ?></strong><br>
+          <?= t('about.facts.three.text') ?>
+        </figcaption>
+      </figure>
     </div>
-  </section>
+
+  </div>
+</section>
+
+<section id="reviews-cta" class="section section--reviews">
+  <div class="reviews-wrap">
+<h2 class="script"><?= t('about.reviews.script') ?></h2>
+    <div class="reviews-card">
+      <p class="body"><?= t('about.reviews.text') ?></p>
+
+      <a
+        class="link-cta"
+        href="https://maps.app.goo.gl/H2drHAxMrZ5mmiru8"
+        target="_blank"
+        rel="noopener noreferrer">
+        <?= t('about.reviews.cta') ?>
+      </a>
+    </div>
+
+    <div class="cta-wrap cta-wrap--inline">
+      <h2 class="script"><?= t('about.cta.title') ?></h2>
+      <p class="cta-text"><?= t('about.cta.text') ?></p>
+
+      <a class="link-cta" href="./contact.php">
+        <?= t('about.cta.button') ?>
+      </a>
+    </div>
+
+  </div>
+</section>
 
 </main>
 

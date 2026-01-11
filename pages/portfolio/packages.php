@@ -21,54 +21,51 @@ require_once __DIR__ . '/../../partials/header.php';
   <section class="packages">
     <section class="packages-carousel">
 
-      <button class="carousel-arrow prev" aria-label="Previous">
-        ‹
-      </button>
+      <button class="carousel-arrow prev" aria-label="Previous">‹</button>
 
       <div class="packages-track">
 
         <article class="package-card">
-          <img src="<?= BASE_URL ?>/assets/images/portfolio/couples/couple-1.jpg" alt="<?= t('packages.couples.alt') ?>">
-          <div class="package-info">
+          <a href="<?= BASE_URL ?>/portfolio/couples.php" class="package-link">
+            <img src="<?= BASE_URL ?>/assets/images/portfolio/couples/couple-1.jpg"
+              alt="<?= t('packages.couples.alt') ?>">
             <h2><?= t('packages.couples.title') ?></h2>
-            <a href="#"><?= t('packages.cta') ?></a>
-          </div>
+          </a>
         </article>
 
         <article class="package-card">
-          <img src="<?= BASE_URL ?>/assets/images/portfolio/events-bts/bts-2.jpg" alt="<?= t('packages.bts.alt') ?>">
-          <div class="package-info">
+          <a href="<?= BASE_URL ?>/portfolio/bts" class="package-link">
+            <img src="<?= BASE_URL ?>/assets/images/portfolio/events-bts/bts-2.jpg"
+              alt="<?= t('packages.bts.alt') ?>">
             <h2><?= t('packages.bts.title') ?></h2>
-            <a href="#"><?= t('packages.cta') ?></a>
-          </div>
+          </a>
         </article>
 
         <article class="package-card">
-          <img src="<?= BASE_URL ?>/assets/images/portfolio/portraits/portrait-1.jpg" alt="<?= t('packages.portrait.alt') ?>">
-          <div class="package-info">
+          <a href="<?= BASE_URL ?>/portfolio/portraits" class="package-link">
+            <img src="<?= BASE_URL ?>/assets/images/portfolio/portraits/portrait-1.jpg"
+              alt="<?= t('packages.portrait.alt') ?>">
             <h2><?= t('packages.portrait.title') ?></h2>
-            <a href="#"><?= t('packages.cta') ?></a>
-          </div>
+          </a>
         </article>
-
 
         <article class="package-card">
-          <img
-            src="<?= BASE_URL ?>/assets/images/portfolio/editorial-artistic/editorial-1.jpg"
-            alt="<?= t('packages.editorial.alt') ?>">
-          <div class="package-info">
+          <a href="<?= BASE_URL ?>/portfolio/editorial" class="package-link">
+            <img src="<?= BASE_URL ?>/assets/images/portfolio/editorial-artistic/editorial-1.jpg"
+              alt="<?= t('packages.editorial.alt') ?>">
             <h2><?= t('packages.editorial.title') ?></h2>
-            <a href="#"><?= t('packages.cta') ?></a>
-          </div>
+          </a>
         </article>
+
       </div>
-      <button class="carousel-arrow next" aria-label="Next">
-        ›
-      </button>
+
+      <button class="carousel-arrow next" aria-label="Next">›</button>
 
     </section>
-
   </section>
 
 </main>
+
 <script type="module" src="<?= BASE_URL ?>/assets/js/main.js"></script>
+
+<?php require_once __DIR__ . '/../../partials/footer.php'; ?>

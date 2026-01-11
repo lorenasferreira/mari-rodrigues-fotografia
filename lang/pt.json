@@ -10,31 +10,43 @@
   "hero.subtitle": "Fotografia Urbana Cinematográfica",
   "hero.description": "Meu trabalho nasce da luz, da atmosfera e da honestidade. Capturo momentos cinematográficos do cotidiano — íntimos, emocionais e silenciosamente poderosos.",
   "hero.cta": "Ver Portfolio",
-  "about.meta.title": "Sobre Mim — Fotografia Mari Rodrigues",
+ 
+  "about.meta.title": "Sobre mim — Mari Rodrigues Photography",
 
   "about.hero.greeting": "Oi,",
-  "about.hero.name": "sou Marina",
-  "about.hero.lead": "Eu amo contar histórias de pessoas e lugares através da fotografia cinematográfica. Meu foco é criar experiências significativas e memórias atemporais — especialmente em Barcelona, uma cidade onde a arte vive em cada esquina.",
-  "about.hero.location": "Barcelona • Mundo todo",
-  "about.hero.script": "Sobre Mim",
+  "about.hero.name": "sou a Marina.",
+  "about.hero.lead": "Fotógrafa e contadora de histórias visuais, focada em narrar pessoas e lugares através de um olhar cinematográfico. Não apenas tiro fotos — crio experiências. Momentos naturais, íntimos e atemporais. Meu trabalho é inspirado pela luz, pelas texturas e pela poesia silenciosa dos lugares por onde passo.",
+  "about.hero.script": "Sobre mim",
 
-  "about.section.title": "Sobre Mim",
-  "about.section.subtitle": "Ei, aventureira(o).",
-  "about.section.paragraph1": "Eu sou a MR — fotógrafa apaixonada por sombras douradas, romance silencioso e emoções reais.",
-  "about.section.paragraph2": "Pense em cenas de cinema, mas da sua vida real. Se você busca imagens que parecem uma história para revisitar, você está no lugar certo.",
-  "about.section.cta": "Saiba mais",
+  "about.section.paragraph1": "Meu trabalho vive entre a fotografia, o cinema e a narrativa visual.",
+  "about.section.paragraph2": "Sou atraída por emoções honestas, beleza natural e momentos que acontecem sem encenação — os silêncios, as sombras douradas e os gestos não ensaiados.",
+  "about.section.paragraph3": "Com experiência em criação de conteúdo, maquiagem e filmmaking, conduzo cada ensaio como uma experiência visual completa — da atmosfera e do estilo ao movimento e à emoção.",
+  "about.section.paragraph4": "Seja fotografando pessoas, casais ou projetos criativos, minha intenção é sempre a mesma: criar imagens que não apenas registrem um momento, mas convidem você a revivê-lo.",
 
-  "about.story.script": "Vamos contar sua história",
-  "about.story.title": "Vamos contar sua história",
-  "about.story.subtitle": "Composição editorial, cor cinematográfica e emoção real. Casais, retratos e marcas.",
-  "about.story.cta": "Saiba mais",
+  "about.facts.script": "Alguns fatos",
+  "about.facts.subtitle": "Experiências que moldaram meu olhar, minhas sensações e meu processo criativo.",
+
+  "about.facts.one.title": "Origens",
+  "about.facts.one.text": "Nasci e cresci em Santos, Brasil. Apesar da formação em Administração, a narrativa visual sempre foi minha verdadeira paixão.",
+
+  "about.facts.two.title": "O mundo como escola",
+  "about.facts.two.text": "Trabalhei por quatro anos em cruzeiros, viajando constantemente e aprendendo a observar pessoas, culturas e momentos passageiros.",
+
+  "about.facts.three.title": "Barcelona",
+  "about.facts.three.text": "Depois de me mudar para Barcelona, me apaixonei por apresentar a cidade através do meu olhar e criar ensaios que sejam pessoais, cinematográficos e reais.",
+
+  "about.reviews.script": "Avaliações",
+  "about.reviews.text": "Cada sessão é única. As palavras de quem já viveu a experiência dizem muito mais do que qualquer portfólio. Aqui você encontra opiniões reais, compartilhadas espontaneamente por clientes no Google.",
+  "about.reviews.cta": "Ver avaliações no Google",
+
+  "about.cta.title": "Vamos contar sua história",
+  "about.cta.text": "Se você se conecta com essa forma de ver e criar, vou adorar ouvir você. Onde quer que esteja, vamos criar algo significativo juntos.",
+  "about.cta.button": "Entrar em contato",
 
   "packages.meta.title": "Pacotes Fotográficos — Mari Rodrigues",
 
   "packages.hero.title_line1": "Explore os",
   "packages.hero.title_line2": "Pacotes",
-
-  "packages.cta": "Saiba mais",
 
   "packages.couples.title": "Casais",
   "packages.couples.alt": "Pacote de fotografia para casais",
@@ -60,5 +72,12 @@
   "contact.form.name": "Nome",
   "contact.form.email": "Email",
   "contact.form.message": "Mensagem",
-  "contact.form.submit": "Enviar mensagem"
+  "contact.form.submit": "Enviar mensagem",
+
+  "about.reviews.script": "Reviews",
+  "about.reviews.title": "O que as pessoas dizem",
+  "about.reviews.subtitle": "Experiências reais, registradas por quem viveu o momento",
+  "about.reviews.text": "Cada sessão é única, e as palavras de quem já passou pela experiência dizem muito mais do que qualquer portfólio. Aqui estão opiniões reais, deixadas espontaneamente por clientes no Google.",
+  "about.reviews.cta": "Ver avaliações no Google"
+
 }

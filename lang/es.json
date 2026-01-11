@@ -10,32 +10,43 @@
   "hero.subtitle": "Fotografía Urbana Cinematográfica",
   "hero.description": "Mi trabajo nace de la luz, la atmósfera y la honestidad. Capturo momentos cinematográficos de la vida cotidiana — íntimos, emocionales y silenciosamente poderosos.",
   "hero.cta": "Ver portafolio",
-
-  "about.meta.title": "Sobre Mí — Fotografía Mari Rodrigues",
+  
+  "about.meta.title": "Sobre mí — Mari Rodrigues Photography",
 
   "about.hero.greeting": "Hola,",
-  "about.hero.name": "soy Marina",
-  "about.hero.lead": "Me encanta contar historias de personas y lugares a través de la fotografía cinematográfica. Me enfoco en crear experiencias significativas y recuerdos atemporales — especialmente en Barcelona, una ciudad donde el arte vive en cada rincón.",
-  "about.hero.location": "Barcelona • Worldwide",
-  "about.hero.script": "Sobre Mí",
+  "about.hero.name": "soy Marina.",
+  "about.hero.lead": "Fotógrafa y narradora visual enfocada en contar historias de personas y lugares a través de una mirada cinematográfica. No solo hago fotos: creo experiencias. Momentos naturales, íntimos y atemporales. Mi trabajo está profundamente inspirado por la luz, las texturas y la poesía silenciosa de los lugares que habito y recorro.",
+  "about.hero.script": "Sobre mí",
 
-  "about.section.title": "Sobre Mí",
-  "about.section.subtitle": "Hey, buscadora de emociones.",
-  "about.section.paragraph1": "Soy MR — fotógrafa atraída por sombras doradas, romance silencioso y emociones honestas.",
-  "about.section.paragraph2": "Piensa en escenas de cine, pero de tu vida real. Si buscas imágenes que se sientan como una historia a la que puedes volver, estás en el lugar correcto.",
-  "about.section.cta": "Saber más",
+  "about.section.paragraph1": "Mi trabajo vive entre la fotografía, el cine y la narrativa visual.",
+  "about.section.paragraph2": "Me atraen las emociones honestas, la belleza natural y los momentos que surgen sin actuación: los silencios, las sombras doradas y los gestos que no se ensayan.",
+  "about.section.paragraph3": "Con experiencia en creación de contenido, maquillaje y filmmaking, guío cada sesión como una experiencia visual completa — desde la atmósfera y el estilo hasta el movimiento y la emoción.",
+  "about.section.paragraph4": "Ya sea trabajando con personas, parejas o proyectos creativos, mi intención es siempre la misma: crear imágenes que no solo documenten un momento, sino que te inviten a volver a él.",
 
-  "about.story.script": "Contemos tu historia",
-  "about.story.title": "Contemos tu historia",
-  "about.story.subtitle": "Composición editorial, color cinematográfico y emoción real. Parejas, retratos y marcas.",
-  "about.story.cta": "Saber más",
+  "about.facts.script": "Algunos datos",
+  "about.facts.subtitle": "Experiencias que han moldeado mi forma de ver, sentir y crear.",
+
+  "about.facts.one.title": "Raíces",
+  "about.facts.one.text": "Nací y crecí en Santos, Brasil. Aunque tengo formación en Administración, la narrativa visual siempre ha sido mi verdadera pasión.",
+
+  "about.facts.two.title": "El mundo como aula",
+  "about.facts.two.text": "Trabajé durante cuatro años a bordo de cruceros, viajando constantemente y aprendiendo a observar personas, culturas y momentos fugaces.",
+
+  "about.facts.three.title": "Barcelona",
+  "about.facts.three.text": "Al mudarme a Barcelona, me enamoré de mostrar la ciudad desde mi mirada y de guiar a las personas hacia experiencias fotográficas personales, cinematográficas y auténticas.",
+
+  "about.reviews.script": "Reseñas",
+  "about.reviews.text": "Cada sesión es una experiencia única. Las palabras de quienes ya la vivieron dicen mucho más que cualquier portafolio. Aquí puedes leer opiniones reales, compartidas espontáneamente por clientes en Google.",
+  "about.reviews.cta": "Ver reseñas en Google",
+
+  "about.cta.title": "Contemos tu historia",
+  "about.cta.text": "Si conectas con esta forma de ver y crear, me encantaría saber de ti. Dondequiera que estés, creemos algo significativo juntos.",
+  "about.cta.button": "Hablemos",
 
   "packages.meta.title": "Paquetes Fotográficos — Mari Rodrigues",
 
   "packages.hero.title_line1": "Explora los",
   "packages.hero.title_line2": "Paquetes",
-
-  "packages.cta": "Saber más",
 
   "packages.couples.title": "Parejas",
   "packages.couples.alt": "Paquete de fotografía para parejas",
