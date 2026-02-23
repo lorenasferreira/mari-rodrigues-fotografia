@@ -1,36 +1,22 @@
-export function initContactForm() {
-  const form = document.querySelector('.contact-form');
+const form = document.getElementById("contactForm");
 
-  if (!form) return;
-
-  form.addEventListener('submit', async (e) => {
+if (form) {
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    const formData = new FormData(form);
+    const name = document.getElementById("name").value.trim();
+    const message = document.getElementById("message").value.trim();
 
-    try {
-      const response = await fetch(form.action, {
-        method: 'POST',
-        body: formData
-      });
+    const template = form.dataset.message;
 
-      const result = await response.json();
+    const finalMessage = template
+      .replace("{name}", name)
+      .replace("{message}", message);
 
-      if (result.success) {
-        showSuccessMessage(form);
-        form.reset();
-      }
-    } catch (error) {
-      alert('Something went wrong.');
-    }
+    const phone = "34654926645";
+
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(finalMessage)}`;
+
+    window.open(url, "_blank");
   });
-}
-
-function showSuccessMessage(form) {
-  const msg = document.createElement('div');
-  msg.className = 'form-success';
-  msg.textContent = 'Message sent successfully 💌';
-
-  form.prepend(msg);
-  setTimeout(() => msg.remove(), 4000);
 }

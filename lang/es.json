@@ -10,7 +10,7 @@
   "hero.subtitle": "Fotografía Urbana Cinematográfica",
   "hero.description": "Mi trabajo nace de la luz, la atmósfera y la honestidad. Capturo momentos cinematográficos de la vida cotidiana — íntimos, emocionales y silenciosamente poderosos.",
   "hero.cta": "Ver portafolio",
-  
+
   "about.meta.title": "Sobre mí — Mari Rodrigues Photography",
 
   "about.hero.greeting": "Hola,",
@@ -70,7 +70,23 @@
   "contact.section.quote": "Cada historia merece ser contada con sensibilidad.",
 
   "contact.form.name": "Nombre",
-  "contact.form.email": "Email",
   "contact.form.message": "Mensaje",
-  "contact.form.submit": "Enviar mensaje"
+  "contact.form.submit": "Enviar mensaje",
+  "contact.whatsapp.message": "Hola Mari, mi nombre es {name}. Me gustaría recibir más información sobre tus servicios. {message}",
+
+  "portfolio.couples.title": "PAREJAS",
+  "portfolio.couples.subtitle": "Un momento tranquilo, solo ustedes dos",
+  "portfolio.couples.text": "Las sesiones de pareja tratan sobre conexión, intimidad y presencia. Sin presión, sin poses — solo ustedes siendo ustedes.",
+
+  "portfolio.events-bts.title": "DETRÁS DE CÁMARAS",
+  "portfolio.events-bts.subtitle": "Entre bastidores, momentos reales",
+  "portfolio.events-bts.text": "Fotografía detrás de cámaras que captura la energía, el movimiento y la autenticidad de los procesos creativos.",
+
+  "portfolio.editorial-artistic.title": "EDITORIAL",
+  "portfolio.editorial-artistic.subtitle": "Visión artística y cinematográfica",
+  "portfolio.editorial-artistic.text": "Sesiones editoriales centradas en la narrativa, la estética y una identidad visual fuerte.",
+
+  "portfolio.portraits.title": "RETRATOS",
+  "portfolio.portraits.subtitle": "Tu presencia, capturada con honestidad",
+  "portfolio.portraits.text": "Las sesiones de retrato son un espacio de expresión y autenticidad. Naturales o producidas, el enfoque siempre es quién eres — tu energía, tu historia, tu esencia."
 }

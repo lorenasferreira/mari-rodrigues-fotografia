@@ -83,11 +83,27 @@
   "contact.section.quote": "Every story deserves to be told with care.",
 
   "contact.form.name": "Name",
-  "contact.form.email": "Email",
   "contact.form.message": "Message",
   "contact.form.submit": "Send message",
+  "contact.whatsapp.message": "Hello Mari, my name is {name}. I would like more information about your services. {message}",
 
   "about.reviews.script": "Reviews",
   "about.reviews.text": "Every photoshoot is a unique experience. The words of those who have already been part of it say far more than any portfolio. Here you can find real opinions, shared spontaneously by clients on Google.",
-  "about.reviews.cta": "See reviews on Google"
+  "about.reviews.cta": "See reviews on Google",
+
+  "portfolio.couples.title": "COUPLES",
+  "portfolio.couples.subtitle": "A quiet moment, just the two of you",
+  "portfolio.couples.text": "Couples sessions are about connection, intimacy and presence. No pressure, no posing — just you being you.",
+
+  "portfolio.events-bts.title": "BTS",
+  "portfolio.events-bts.subtitle": "Behind the scenes, real moments",
+  "portfolio.events-bts.text": "Behind the scenes photography that captures the energy, movement, and authenticity of creative processes.",
+
+  "portfolio.editorial-artistic.title": "EDITORIAL",
+  "portfolio.editorial-artistic.subtitle": "Artistic and cinematic vision",
+  "portfolio.editorial-artistic.text": "Editorial sessions focused on storytelling, aesthetics, and strong visual identity.",
+
+  "portfolio.portraits.title": "PORTRAITS",
+  "portfolio.portraits.subtitle": "Your presence, honestly captured",
+  "portfolio.portraits.text": "Portrait sessions are a space for self-expression and authenticity. Whether natural or styled, the focus is always on who you are — your energy, your story, your essence."
 }

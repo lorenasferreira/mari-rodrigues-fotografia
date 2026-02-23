@@ -1,7 +1,7 @@
 import { initNav } from "./nav.js";
 import { initHeroRotator } from "./hero/hero-rotator.js";
 import { initPackagesCarousel } from "./packages.js";
-import { initContactForm } from "./contact.js";
+import "./contact.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   initNav();

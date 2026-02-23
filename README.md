@@ -23,12 +23,17 @@ Although the website initially behaves as a static experience, it is structured 
 
 ## Screenshots
 
-> _(Screenshots will be added after deployment)_
+### Desktop — Home
+![Home Desktop](docs/screenshots/home-desktop.png)
 
-- Home page
-- Portfolio view
-- About page
-- Contact section
+### Mobile — Home
+![Home Mobile](docs/screenshots/home-mobile.png)
+
+### Portfolio
+![Portfolio](docs/screenshots/portfolio.png)
+
+### Contact
+![Contact](docs/screenshots/contact.png)
 
 ---
 

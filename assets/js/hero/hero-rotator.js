@@ -6,33 +6,35 @@ export function initHeroRotator() {
 
   if (!heroImage) return;
 
-  const isMobile = window.innerWidth <= 768;
+  const mobileQuery = window.matchMedia("(max-width: 768px)");
 
-  const images = isMobile
-    ? [
-        "./assets/images/hero-mobile/hero-01.jpg",
-        "./assets/images/hero-mobile/hero-02.jpg",
-        "./assets/images/hero-mobile/hero-03.jpg",
-        "./assets/images/hero-mobile/hero-04.jpg",
-        "./assets/images/hero-mobile/hero-05.jpg",
-        "./assets/images/hero-mobile/hero-06.jpg",
-        "./assets/images/hero-mobile/hero-07.jpg",
-      ]
-    : [
-        "./assets/images/hero-desktop/hero-01.jpg",
-        "./assets/images/hero-desktop/hero-02.jpg",
-        "./assets/images/hero-desktop/hero-03.jpg",
-        "./assets/images/hero-desktop/hero-04.jpg",
-        "./assets/images/hero-desktop/hero-05.jpg",
-        "./assets/images/hero-desktop/hero-06.jpg",
-      ];
+  function getImages() {
+    return mobileQuery.matches
+      ? [
+          "./assets/images/hero-mobile/hero-01.jpg",
+          "./assets/images/hero-mobile/hero-02.jpg",
+          "./assets/images/hero-mobile/hero-03.jpg",
+          "./assets/images/hero-mobile/hero-04.jpg",
+          "./assets/images/hero-mobile/hero-05.jpg",
+          "./assets/images/hero-mobile/hero-06.jpg",
+          "./assets/images/hero-mobile/hero-07.jpg",
+        ]
+      : [
+          "./assets/images/hero-desktop/hero-01.jpg",
+          "./assets/images/hero-desktop/hero-02.jpg",
+          "./assets/images/hero-desktop/hero-03.jpg",
+          "./assets/images/hero-desktop/hero-04.jpg",
+          "./assets/images/hero-desktop/hero-05.jpg",
+          "./assets/images/hero-desktop/hero-06.jpg",
+        ];
+  }
 
+  let images = getImages();
   let currentIndex = 0;
   let intervalId;
 
   function updateHero() {
     heroImage.src = images[currentIndex];
-
     document.querySelectorAll(".hero-dot").forEach((dot, index) => {
       dot.classList.toggle("active", index === currentIndex);
     });
@@ -40,18 +42,14 @@ export function initHeroRotator() {
 
   function createDots() {
     if (!dotsContainer) return;
-
     dotsContainer.innerHTML = "";
 
     images.forEach((_, index) => {
       const dot = document.createElement("span");
       dot.classList.add("hero-dot");
+      dot.classList.toggle("active", index === currentIndex);
 
-      if (index === currentIndex) {
-        dot.classList.add("active");
-      }
-
-      dot.addEventListener("click", () => {
+      dot.addEventListener("pointerup", () => {
         currentIndex = index;
         updateHero();
         resetAutoplay();
@@ -80,18 +78,24 @@ export function initHeroRotator() {
     startAutoplay();
   }
 
-  // arrows
-  nextBtn?.addEventListener("click", () => {
+  nextBtn?.addEventListener("pointerup", () => {
     nextSlide();
     resetAutoplay();
   });
 
-  prevBtn?.addEventListener("click", () => {
+  prevBtn?.addEventListener("pointerup", () => {
     prevSlide();
     resetAutoplay();
   });
 
-  // init
+  mobileQuery.addEventListener("change", () => {
+    images = getImages();
+    currentIndex = 0;
+    heroImage.src = images[0];
+    createDots();
+    resetAutoplay();
+  });
+
   heroImage.src = images[0];
   createDots();
   startAutoplay();

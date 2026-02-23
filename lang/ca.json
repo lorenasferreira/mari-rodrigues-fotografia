@@ -70,7 +70,23 @@
   "contact.section.quote": "Cada història mereix ser explicada amb cura.",
 
   "contact.form.name": "Nom",
-  "contact.form.email": "Correu electrònic",
   "contact.form.message": "Missatge",
-  "contact.form.submit": "Enviar missatge"
+  "contact.form.submit": "Enviar missatge",
+  "contact.whatsapp.message": "Hola Mari, el meu nom és {name}. M’agradaria rebre més informació sobre els teus serveis. {message}",
+
+  "portfolio.couples.title": "PARELLES",
+  "portfolio.couples.subtitle": "Un moment tranquil, només vosaltres dos",
+  "portfolio.couples.text": "Les sessions de parella parlen de connexió, intimitat i presència. Sense pressió, sense posats — simplement vosaltres sent vosaltres.",
+
+  "portfolio.events-bts.title": "ENTRE BASTIDORS",
+  "portfolio.events-bts.subtitle": "Darrere l’escena, moments reals",
+  "portfolio.events-bts.text": "Fotografia entre bastidors que captura l’energia, el moviment i l’autenticitat dels processos creatius.",
+
+  "portfolio.editorial-artistic.title": "EDITORIAL",
+  "portfolio.editorial-artistic.subtitle": "Visió artística i cinematogràfica",
+  "portfolio.editorial-artistic.text": "Sessions editorials centrades en la narrativa, l’estètica i una identitat visual forta.",
+
+  "portfolio.portraits.title": "RETRATS",
+  "portfolio.portraits.subtitle": "La teva presència, capturada amb veritat",
+  "portfolio.portraits.text": "Les sessions de retrat són un espai d’expressió i autenticitat. Naturals o produïdes, el focus sempre és qui ets — la teva energia, la teva història, la teva essència."
 }

@@ -24,6 +24,8 @@
 
 .hero-arrow {
   pointer-events: auto;
+  cursor: pointer;
+  touch-action: manipulation;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -38,6 +40,11 @@
   opacity: 0.8;
 }
 
+.hero-overlay {
+  pointer-events: none;
+}
+
+
 .hero-arrow.prev { left: 20px; }
 .hero-arrow.next { right: 20px; }
 
@@ -48,12 +55,19 @@
   background: white;
   opacity: 0.4;
   cursor: pointer;
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .hero-dot.active {
   opacity: 1;
 }
 
+.btn {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
 
 .about {
   padding: 120px 8%;

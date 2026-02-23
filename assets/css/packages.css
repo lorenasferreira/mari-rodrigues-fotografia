@@ -7,7 +7,7 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  background: url('../images/portfolio/events-bts/bts-1.jpg') center / cover no-repeat;
+  background: url('../images/portfolio/events-bts/bts-01.jpg') center / cover no-repeat;
 }
 
 .hero-overlay {

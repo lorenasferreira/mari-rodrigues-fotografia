@@ -12,39 +12,38 @@ require_once __DIR__ . '/../partials/header.php';
     <section class="contact-hero">
 
         <div class="contact-photo contact-photo--left">
-            <img src="<?= BASE_URL ?>/assets/images/portfolio/editorial-artistic/editorial-2.jpg" alt="Contact photo left">
+            <img src="<?= BASE_URL ?>/assets/images/portfolio/editorial-artistic/editorial-02.jpg" alt="Contact photo left">
         </div>
 
         <div class="contact-photo contact-photo--right">
-            <img src="<?= BASE_URL ?>/assets/images/portfolio/editorial-artistic/editorial-3.jpg" alt="Contact photo right">
+            <img src="<?= BASE_URL ?>/assets/images/portfolio/editorial-artistic/editorial-03.jpg" alt="Contact photo right">
         </div>
 
         <div class="contact-form-wrapper">
             <h1 class="script"><?= t('contact.hero.title') ?></h1>
             <p class="lead"><?= t('contact.hero.lead') ?></p>
 
-            <form class="contact-form" method="post" action="<?= BASE_URL ?>/handlers/contact-handler.php">
+      <form 
+    class="contact-form" 
+    id="contactForm"
+    data-message="<?= t('contact.whatsapp.message') ?>"
+>
 
-                <div class="field">
-                    <label for="name"><?= t('contact.form.name') ?></label>
-                    <input type="text" id="name" name="name" required>
-                </div>
+    <div class="field">
+        <label for="name"><?= t('contact.form.name') ?></label>
+        <input type="text" id="name" name="name" required>
+    </div>
 
-                <div class="field">
-                    <label for="email"><?= t('contact.form.email') ?></label>
-                    <input type="email" id="email" name="email" required>
-                </div>
+    <div class="field">
+        <label for="message"><?= t('contact.form.message') ?></label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
 
-                <div class="field">
-                    <label for="message"><?= t('contact.form.message') ?></label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
+    <button type="submit" class="btn btn--primary">
+        <?= t('contact.form.submit') ?>
+    </button>
 
-                <button type="submit" class="btn btn--primary">
-                    <?= t('contact.form.submit') ?>
-                </button>
-
-            </form>
+</form>
         </div>
 
     </section>
@@ -53,7 +52,7 @@ require_once __DIR__ . '/../partials/header.php';
         <div class="gallery-grid">
             <?php for ($i = 1; $i <= 6; $i++): ?>
                 <figure class="gallery-item">
-                    <img src="<?= BASE_URL ?>/assets/images/portfolio/portraits/portrait-<?= $i ?>.jpg" alt="Gallery image <?= $i ?>">
+                    <img src="<?= BASE_URL ?>/assets/images/portfolio/portraits/portrait-0<?= $i ?>.jpg" alt="Gallery image <?= $i ?>">
                 </figure>
             <?php endfor; ?>
         </div>

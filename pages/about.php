@@ -80,7 +80,7 @@ require_once __DIR__ . '/../partials/header.php';
 
     <div class="triptych">
       <figure class="torn">
-        <img src="<?= BASE_URL ?>/assets/images/about/story-1.HEIC" alt="" />
+        <img src="<?= BASE_URL ?>/assets/images/about/story-1.jpg" alt="" />
         <figcaption class="fact">
           <strong><?= t('about.facts.one.title') ?></strong><br>
           <?= t('about.facts.one.text') ?>
@@ -114,7 +114,7 @@ require_once __DIR__ . '/../partials/header.php';
       <p class="body"><?= t('about.reviews.text') ?></p>
 
       <a
-        class="link-cta"
+        class="link-cta link-cta--reviews"
         href="https://maps.app.goo.gl/H2drHAxMrZ5mmiru8"
         target="_blank"
         rel="noopener noreferrer">
@@ -126,7 +126,10 @@ require_once __DIR__ . '/../partials/header.php';
       <h2 class="script"><?= t('about.cta.title') ?></h2>
       <p class="cta-text"><?= t('about.cta.text') ?></p>
 
-      <a class="link-cta" href="./contact.php">
+      <a class="link-cta link-cta--primary" href="https://wa.me/+34654926645"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp">
         <?= t('about.cta.button') ?>
       </a>
     </div>

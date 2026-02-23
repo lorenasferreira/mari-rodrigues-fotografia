@@ -13,7 +13,7 @@ $pageCss = $pageCss ?? [];
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/layout.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/components.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
-
+<link rel="icon" type="image/x-icon" href="<?= BASE_URL ?>/favicon-mari.ico">
     <?php foreach ($pageCss as $css): ?>
         <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $css ?>">
     <?php endforeach; ?>

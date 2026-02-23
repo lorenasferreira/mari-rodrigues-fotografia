@@ -10,7 +10,7 @@
   "hero.subtitle": "Fotografia Urbana Cinematográfica",
   "hero.description": "Meu trabalho nasce da luz, da atmosfera e da honestidade. Capturo momentos cinematográficos do cotidiano — íntimos, emocionais e silenciosamente poderosos.",
   "hero.cta": "Ver Portfolio",
- 
+
   "about.meta.title": "Sobre mim — Mari Rodrigues Photography",
 
   "about.hero.greeting": "Oi,",
@@ -34,10 +34,6 @@
 
   "about.facts.three.title": "Barcelona",
   "about.facts.three.text": "Depois de me mudar para Barcelona, me apaixonei por apresentar a cidade através do meu olhar e criar ensaios que sejam pessoais, cinematográficos e reais.",
-
-  "about.reviews.script": "Avaliações",
-  "about.reviews.text": "Cada sessão é única. As palavras de quem já viveu a experiência dizem muito mais do que qualquer portfólio. Aqui você encontra opiniões reais, compartilhadas espontaneamente por clientes no Google.",
-  "about.reviews.cta": "Ver avaliações no Google",
 
   "about.cta.title": "Vamos contar sua história",
   "about.cta.text": "Se você se conecta com essa forma de ver e criar, vou adorar ouvir você. Onde quer que esteja, vamos criar algo significativo juntos.",
@@ -70,14 +66,29 @@
   "contact.section.quote": "Toda história merece ser contada com sensibilidade.",
 
   "contact.form.name": "Nome",
-  "contact.form.email": "Email",
   "contact.form.message": "Mensagem",
   "contact.form.submit": "Enviar mensagem",
+  "contact.whatsapp.message": "Olá Mari, o meu nome é {name}. Gostaria de receber mais informações sobre os seus serviços. {message}",
 
   "about.reviews.script": "Reviews",
   "about.reviews.title": "O que as pessoas dizem",
   "about.reviews.subtitle": "Experiências reais, registradas por quem viveu o momento",
   "about.reviews.text": "Cada sessão é única, e as palavras de quem já passou pela experiência dizem muito mais do que qualquer portfólio. Aqui estão opiniões reais, deixadas espontaneamente por clientes no Google.",
-  "about.reviews.cta": "Ver avaliações no Google"
+  "about.reviews.cta": "Ver avaliações no Google",
 
+  "portfolio.couples.title": "CASAIS",
+  "portfolio.couples.subtitle": "Um momento tranquilo, só vocês dois",
+  "portfolio.couples.text": "Ensaios de casal são sobre conexão, intimidade e presença. Sem pressão, sem poses — apenas vocês sendo vocês.",
+
+  "portfolio.events-bts.title": "BASTIDORES",
+  "portfolio.events-bts.subtitle": "Por trás das cenas, momentos reais",
+  "portfolio.events-bts.text": "Fotografia de bastidores que captura a energia, o movimento e a autenticidade dos processos criativos.",
+
+  "portfolio.editorial-artistic.title": "EDITORIAL",
+  "portfolio.editorial-artistic.subtitle": "Visão artística e cinematográfica",
+  "portfolio.editorial-artistic.text": "Ensaios editoriais focados em narrativa, estética e uma identidade visual forte.",
+
+  "portfolio.portraits.title": "RETRATOS",
+  "portfolio.portraits.subtitle": "Sua presença, capturada com verdade",
+  "portfolio.portraits.text": "Ensaios de retrato são um espaço de expressão e autenticidade. Naturais ou produzidos, o foco é sempre quem você é — sua energia, sua história, sua essência."
 }
