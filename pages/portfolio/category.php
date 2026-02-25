@@ -55,6 +55,10 @@ require_once __DIR__ . '/../../partials/header.php';
     $imagesPath = __DIR__ . "/../../assets/images/portfolio/$type/";
     $images = glob($imagesPath . "*.jpg");
 
+     $images = array_filter($images, function($img) {
+        return basename($img) !== 'hero.jpg';
+    });
+
     foreach ($images as $img):
       $filename = basename($img);
       $src = BASE_URL . "/assets/images/portfolio/$type/" . $filename;
