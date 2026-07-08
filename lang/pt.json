@@ -44,8 +44,8 @@
   "packages.hero.title_line1": "Explore os",
   "packages.hero.title_line2": "Pacotes",
 
-  "packages.couples.title": "Casais",
-  "packages.couples.alt": "Pacote de fotografia para casais",
+  "packages.publicity.title": "Publicidade",
+  "packages.publicity.alt": "Fotografia publicitária para marcas e projetos criativos",
 
   "packages.bts.title": "BTS",
   "packages.bts.alt": "Fotografia de bastidores para eventos e projetos criativos",
@@ -76,9 +76,9 @@
   "about.reviews.text": "Cada sessão é única, e as palavras de quem já passou pela experiência dizem muito mais do que qualquer portfólio. Aqui estão opiniões reais, deixadas espontaneamente por clientes no Google.",
   "about.reviews.cta": "Ver avaliações no Google",
 
-  "portfolio.couples.title": "CASAIS",
-  "portfolio.couples.subtitle": "Um momento tranquilo, só vocês dois",
-  "portfolio.couples.text": "Ensaios de casal são sobre conexão, intimidade e presença. Sem pressão, sem poses — apenas vocês sendo vocês.",
+  "portfolio.publicity.title": "PUBLICIDADE",
+  "portfolio.publicity.subtitle": "Imagens pensadas para comunicar, inspirar e vender",
+  "portfolio.publicity.text": "Fotografia publicitária para marcas, produtos e projetos criativos. Imagens com identidade, atmosfera e intenção visual, criadas para destacar sua marca e conectar com o seu público.",
 
   "portfolio.events-bts.title": "BASTIDORES",
   "portfolio.events-bts.subtitle": "Por trás das cenas, momentos reais",

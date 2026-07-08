@@ -1,12 +1,12 @@
 <?php
 require_once __DIR__ . '/../../config/bootstrap.php';
 
-$type = $_GET['type'] ?? 'couples';
+$type = $_GET['type'] ?? 'publicity';
 
-$allowedTypes = ['couples', 'events-bts', 'editorial-artistic', 'portraits'];
+$allowedTypes = ['publicity', 'events-bts', 'editorial-artistic', 'portraits'];
 
 if (!in_array($type, $allowedTypes, true)) {
-  $type = 'couples';
+  $type = 'publicity';
 }
 
 $currentIndex = array_search($type, $allowedTypes, true);
@@ -22,6 +22,7 @@ $pageCss   = ['category.css'];
 require_once __DIR__ . '/../../partials/header.php';
 ?>
 <?php echo "<!-- DEPLOY_CHECK: hero-filter-v3 -->"; ?>
+
 <main class="portfolio-category">
 
   <section class="category-hero">
@@ -29,8 +30,7 @@ require_once __DIR__ . '/../../partials/header.php';
     <div class="hero-image">
       <img
         src="<?= BASE_URL ?>/assets/images/portfolio/<?= $type ?>/hero.jpg"
-        alt="<?= t("portfolio.$type.title"); ?>"
-      >
+        alt="<?= t("portfolio.$type.title"); ?>">
     </div>
 
     <div class="hero-text">
@@ -49,25 +49,25 @@ require_once __DIR__ . '/../../partials/header.php';
 
   <section class="category-gallery">
     <?php
-      $imagesPath = __DIR__ . "/../../assets/images/portfolio/$type/";
+    $imagesPath = __DIR__ . "/../../assets/images/portfolio/$type/";
 
-      $images = array_merge(
-        glob($imagesPath . "*.jpg"),
-        glob($imagesPath . "*.JPG"),
-        glob($imagesPath . "*.jpeg"),
-        glob($imagesPath . "*.JPEG")
-      );
+    $images = array_merge(
+      glob($imagesPath . "*.jpg"),
+      glob($imagesPath . "*.JPG"),
+      glob($imagesPath . "*.jpeg"),
+      glob($imagesPath . "*.JPEG")
+    );
 
-      $images = array_filter($images, function($img) {
-        $name = strtolower(basename($img));
-        return $name !== 'hero.jpg' && $name !== 'hero.jpeg';
-      });
+    $images = array_filter($images, function ($img) {
+      $name = strtolower(basename($img));
+      return $name !== 'hero.jpg' && $name !== 'hero.jpeg';
+    });
 
-      $images = array_values($images);
+    $images = array_values($images);
 
-      foreach ($images as $img):
-        $filename = basename($img);
-        $src = BASE_URL . "/assets/images/portfolio/$type/" . $filename;
+    foreach ($images as $img):
+      $filename = basename($img);
+      $src = BASE_URL . "/assets/images/portfolio/$type/" . $filename;
     ?>
       <figure class="gallery-item">
         <img src="<?= $src ?>" alt="">

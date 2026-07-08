@@ -48,8 +48,8 @@
   "packages.hero.title_line1": "Explora els",
   "packages.hero.title_line2": "Paquets",
 
-  "packages.couples.title": "Parelles",
-  "packages.couples.alt": "Paquet de fotografia per a parelles",
+  "packages.publicity.title": "Publicitat",
+  "packages.publicity.alt": "Fotografia publicitària per a marques i projectes creatius",
 
   "packages.bts.title": "BTS",
   "packages.bts.alt": "Fotografia de bastidors per a esdeveniments i projectes creatius",
@@ -59,6 +59,7 @@
 
   "packages.editorial.title": "Editorial / Artístic",
   "packages.editorial.alt": "Sessions fotogràfiques editorials i artístiques",
+
   "contact.meta.title": "Contacte — Mari Rodrigues",
 
   "contact.hero.title": "Connectem",
@@ -74,9 +75,9 @@
   "contact.form.submit": "Enviar missatge",
   "contact.whatsapp.message": "Hola Mari, el meu nom és {name}. M’agradaria rebre més informació sobre els teus serveis. {message}",
 
-  "portfolio.couples.title": "PARELLES",
-  "portfolio.couples.subtitle": "Un moment tranquil, només vosaltres dos",
-  "portfolio.couples.text": "Les sessions de parella parlen de connexió, intimitat i presència. Sense pressió, sense posats — simplement vosaltres sent vosaltres.",
+  "portfolio.publicity.title": "PUBLICITAT",
+  "portfolio.publicity.subtitle": "Imatges pensades per comunicar, inspirar i vendre",
+  "portfolio.publicity.text": "Fotografia publicitària per a marques, productes i projectes creatius. Imatges amb identitat, atmosfera i intenció visual, creades per destacar la teva proposta i connectar amb el teu públic.",
 
   "portfolio.events-bts.title": "ENTRE BASTIDORS",
   "portfolio.events-bts.subtitle": "Darrere l’escena, moments reals",

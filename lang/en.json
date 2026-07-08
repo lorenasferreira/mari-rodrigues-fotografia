@@ -60,8 +60,8 @@
   "packages.hero.title_line1": "Explore the",
   "packages.hero.title_line2": "Packages",
 
-  "packages.couples.title": "Couples",
-  "packages.couples.alt": "Couples photography package",
+  "packages.publicity.title": "Commercial",
+  "packages.publicity.alt": "Commercial photography for brands and creative projects",
 
   "packages.bts.title": "BTS",
   "packages.bts.alt": "Behind the scenes photography for events and creative projects",
@@ -91,9 +91,9 @@
   "about.reviews.text": "Every photoshoot is a unique experience. The words of those who have already been part of it say far more than any portfolio. Here you can find real opinions, shared spontaneously by clients on Google.",
   "about.reviews.cta": "See reviews on Google",
 
-  "portfolio.couples.title": "COUPLES",
-  "portfolio.couples.subtitle": "A quiet moment, just the two of you",
-  "portfolio.couples.text": "Couples sessions are about connection, intimacy and presence. No pressure, no posing — just you being you.",
+  "portfolio.publicity.title": "COMMERCIAL",
+  "portfolio.publicity.subtitle": "Images designed to communicate, inspire and sell",
+  "portfolio.publicity.text": "Commercial photography for brands, products, and creative projects. Cinematic imagery with a strong visual identity, created to showcase your brand and connect with your audience.",
 
   "portfolio.events-bts.title": "BTS",
   "portfolio.events-bts.subtitle": "Behind the scenes, real moments",

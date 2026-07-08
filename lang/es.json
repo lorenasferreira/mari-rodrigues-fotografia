@@ -48,8 +48,8 @@
   "packages.hero.title_line1": "Explora los",
   "packages.hero.title_line2": "Paquetes",
 
-  "packages.couples.title": "Parejas",
-  "packages.couples.alt": "Paquete de fotografía para parejas",
+  "packages.publicity.title": "Publicidad",
+  "packages.publicity.alt": "Fotografía publicitaria para marcas y proyectos creativos",
 
   "packages.bts.title": "BTS",
   "packages.bts.alt": "Fotografía de bastidores para eventos y proyectos creativos",
@@ -74,9 +74,9 @@
   "contact.form.submit": "Enviar mensaje",
   "contact.whatsapp.message": "Hola Mari, mi nombre es {name}. Me gustaría recibir más información sobre tus servicios. {message}",
 
-  "portfolio.couples.title": "PAREJAS",
-  "portfolio.couples.subtitle": "Un momento tranquilo, solo ustedes dos",
-  "portfolio.couples.text": "Las sesiones de pareja tratan sobre conexión, intimidad y presencia. Sin presión, sin poses — solo ustedes siendo ustedes.",
+  "portfolio.publicity.title": "PUBLICIDAD",
+  "portfolio.publicity.subtitle": "Imágenes pensadas para comunicar, inspirar y vender",
+  "portfolio.publicity.text": "Fotografía publicitaria para marcas, productos y proyectos creativos. Imágenes con identidad, atmósfera e intención visual, creadas para destacar tu propuesta y conectar con tu público.",
 
   "portfolio.events-bts.title": "DETRÁS DE CÁMARAS",
   "portfolio.events-bts.subtitle": "Entre bastidores, momentos reales",
