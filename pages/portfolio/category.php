@@ -23,13 +23,23 @@ require_once __DIR__ . '/../../partials/header.php';
 ?>
 <?php echo "<!-- DEPLOY_CHECK: hero-filter-v3 -->"; ?>
 
+<?php
+$heroSrc = BASE_URL . "/assets/images/portfolio/$type/hero.jpg";
+
+if (file_exists(__DIR__ . "/../../assets/images/portfolio/$type/hero.webp")) {
+  $heroSrc = BASE_URL . "/assets/images/portfolio/$type/hero.webp";
+} elseif (file_exists(__DIR__ . "/../../assets/images/portfolio/$type/hero.jpeg")) {
+  $heroSrc = BASE_URL . "/assets/images/portfolio/$type/hero.jpeg";
+}
+?>
+
 <main class="portfolio-category">
 
   <section class="category-hero">
 
     <div class="hero-image">
       <img
-        src="<?= BASE_URL ?>/assets/images/portfolio/<?= $type ?>/hero.jpg"
+        src="<?= $heroSrc ?>"
         alt="<?= t("portfolio.$type.title"); ?>">
     </div>
 
@@ -55,12 +65,14 @@ require_once __DIR__ . '/../../partials/header.php';
       glob($imagesPath . "*.jpg"),
       glob($imagesPath . "*.JPG"),
       glob($imagesPath . "*.jpeg"),
-      glob($imagesPath . "*.JPEG")
+      glob($imagesPath . "*.JPEG"),
+      glob($imagesPath . "*.webp"),
+      glob($imagesPath . "*.WEBP")
     );
 
     $images = array_filter($images, function ($img) {
       $name = strtolower(basename($img));
-      return $name !== 'hero.jpg' && $name !== 'hero.jpeg';
+      return !in_array($name, ['hero.jpg', 'hero.jpeg', 'hero.webp'], true);
     });
 
     $images = array_values($images);
