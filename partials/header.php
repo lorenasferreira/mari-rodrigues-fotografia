@@ -1,6 +1,7 @@
 <?php
 $pageTitle = $pageTitle ?? 'Mari Rodrigues — Cinematic Urban Photography';
 $pageCss = $pageCss ?? [];
+$lang = $lang ?? 'en';
 ?>
 <!DOCTYPE html>
 <html lang="<?= htmlspecialchars($lang) ?>">

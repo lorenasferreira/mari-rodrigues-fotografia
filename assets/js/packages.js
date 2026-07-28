@@ -3,7 +3,6 @@ export function initPackagesCarousel() {
   const prev = document.querySelector('.carousel-arrow.prev');
   const next = document.querySelector('.carousel-arrow.next');
 
-  // se não estiver na página de packages, sai silenciosamente
   if (!track || !prev || !next) return;
 
   const scrollAmount = track.querySelector('.package-card')?.offsetWidth || 360;

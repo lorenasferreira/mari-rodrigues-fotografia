@@ -24,7 +24,7 @@ require_once __DIR__ . '/../partials/header.php';
       </div>
 
       <figure class="polaroid">
-        <img src="<?= BASE_URL ?>/assets/images/about/portrait.JPG" alt="Portrait" />
+        <img src="<?= BASE_URL ?>/assets/images/about/portrait.webp" alt="Portrait" />
       </figure>
 
       <div class="hero-stickers" aria-hidden="true">
@@ -52,11 +52,11 @@ require_once __DIR__ . '/../partials/header.php';
 
           <div class="stack">
             <figure class="torn torn--left">
-              <img src="<?= BASE_URL ?>/assets/images/about/about-1.JPG" alt="" />
+              <img src="<?= BASE_URL ?>/assets/images/about/about-1.webp" alt="" />
             </figure>
 
             <figure class="tape-card">
-              <img src="<?= BASE_URL ?>/assets/images/about/about-2.JPG" alt="" />
+              <img src="<?= BASE_URL ?>/assets/images/about/about-2.webp" alt="" />
               <span class="tape tape--a"></span>
               <span class="tape tape--b"></span>
             </figure>
@@ -69,73 +69,76 @@ require_once __DIR__ . '/../partials/header.php';
     </div>
   </section>
 
-<section id="facts" class="section section--story">
-  <span class="bg-script bg-script--story"><?= t('about.facts.script') ?></span>
+  <section id="facts" class="section section--story">
+    <span class="bg-script bg-script--story"><?= t('about.facts.script') ?></span>
 
-  <div class="story-wrap">
+    <div class="story-wrap">
 
-    <header class="story-header">
-      <p class="body body--muted"><?= t('about.facts.subtitle') ?></p>
-    </header>
+      <header class="story-header">
+        <p class="body body--muted"><?= t('about.facts.subtitle') ?></p>
+      </header>
 
-    <div class="triptych">
-      <figure class="torn">
-        <img src="<?= BASE_URL ?>/assets/images/about/story-1.jpg" alt="" />
-        <figcaption class="fact">
-          <strong><?= t('about.facts.one.title') ?></strong><br>
-          <?= t('about.facts.one.text') ?>
-        </figcaption>
-      </figure>
+      <div class="triptych">
+        <figure class="torn">
+          <img src="<?= BASE_URL ?>/assets/images/about/story-1.webp" alt="" />
+          <figcaption class="fact">
+            <strong><?= t('about.facts.one.title') ?></strong><br>
+            <?= t('about.facts.one.text') ?>
+          </figcaption>
+        </figure>
 
-      <figure class="torn">
-        <img src="<?= BASE_URL ?>/assets/images/about/story-2.JPG" alt="" />
-        <figcaption class="fact">
-          <strong><?= t('about.facts.two.title') ?></strong><br>
-          <?= t('about.facts.two.text') ?>
-        </figcaption>
-      </figure>
+        <figure class="torn">
+          <img src="<?= BASE_URL ?>/assets/images/about/story-2.webp" alt="" />
+          <figcaption class="fact">
+            <strong><?= t('about.facts.two.title') ?></strong><br>
+            <?= t('about.facts.two.text') ?>
+          </figcaption>
+        </figure>
 
-      <figure class="torn">
-        <img src="<?= BASE_URL ?>/assets/images/about/story-3.JPG" alt="" />
-        <figcaption class="fact">
-          <strong><?= t('about.facts.three.title') ?></strong><br>
-          <?= t('about.facts.three.text') ?>
-        </figcaption>
-      </figure>
+        <figure class="torn">
+          <img src="<?= BASE_URL ?>/assets/images/about/story-3.webp" alt="" />
+          <figcaption class="fact">
+            <strong><?= t('about.facts.three.title') ?></strong><br>
+            <?= t('about.facts.three.text') ?>
+          </figcaption>
+        </figure>
+      </div>
+
     </div>
+  </section>
 
-  </div>
-</section>
+  <section id="reviews-cta" class="section section--reviews">
+    <div class="reviews-wrap">
+      <h2 class="script"><?= t('about.reviews.script') ?></h2>
 
-<section id="reviews-cta" class="section section--reviews">
-  <div class="reviews-wrap">
-<h2 class="script"><?= t('about.reviews.script') ?></h2>
-    <div class="reviews-card">
-      <p class="body"><?= t('about.reviews.text') ?></p>
+      <div class="reviews-card">
+        <p class="body"><?= t('about.reviews.text') ?></p>
 
-      <a
-        class="link-cta link-cta--reviews"
-        href="https://maps.app.goo.gl/H2drHAxMrZ5mmiru8"
-        target="_blank"
-        rel="noopener noreferrer">
-        <?= t('about.reviews.cta') ?>
-      </a>
+        <a
+          class="link-cta link-cta--reviews"
+          href="https://maps.app.goo.gl/H2drHAxMrZ5mmiru8"
+          target="_blank"
+          rel="noopener noreferrer">
+          <?= t('about.reviews.cta') ?>
+        </a>
+      </div>
+
+      <div class="cta-wrap cta-wrap--inline">
+        <h2 class="script"><?= t('about.cta.title') ?></h2>
+        <p class="cta-text"><?= t('about.cta.text') ?></p>
+
+        <a
+          class="link-cta link-cta--primary"
+          href="https://wa.me/+34654926645"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp">
+          <?= t('about.cta.button') ?>
+        </a>
+      </div>
+
     </div>
-
-    <div class="cta-wrap cta-wrap--inline">
-      <h2 class="script"><?= t('about.cta.title') ?></h2>
-      <p class="cta-text"><?= t('about.cta.text') ?></p>
-
-      <a class="link-cta link-cta--primary" href="https://wa.me/+34654926645"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp">
-        <?= t('about.cta.button') ?>
-      </a>
-    </div>
-
-  </div>
-</section>
+  </section>
 
 </main>
 
